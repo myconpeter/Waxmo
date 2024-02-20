@@ -29,11 +29,12 @@ const loginORsignup = () => {
                             </Link>
                         </div>
                         <div className='group border-2 border-white   items-center px-3   bg-white rounded-full flex flex-col w-screen '>
-                            <a
-                                className='group text-blabk items-center p-3  text-black  bg-blue-500 text-2xl font-bold rounded-lg flex cursor-pointer w-fit' href='#'
+                            <Link
+                                to="/signup"
+                                className='group text-blabk items-center p-3  text-black  bg-blue-500 text-2xl font-bold rounded-lg flex cursor-pointer w-fit'
                             >
                                 SIGNUP
-                            </a>
+                            </Link>
                         </div>
                     </div>
 

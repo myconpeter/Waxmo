@@ -13,6 +13,7 @@ import WelcomeLayout from "./layouts/welcomeLayout";
 import Welcome from './pages/welcomePage'
 import LoginORsignup from "./pages/loginORsignup";
 import LoginPage from "./pages/loginPage";
+import SignupPage from "./pages/signupPage";
 
 
 const router = createBrowserRouter(
@@ -20,7 +21,9 @@ const router = createBrowserRouter(
     <Route path="/" element={<WelcomeLayout />} >
       <Route index element={<Welcome />} />
       <Route path="loginORsignup" element={<LoginORsignup />} />
-      <Route path="login" exact element={<LoginPage />} />
+      <Route path="login" element={<LoginPage />} />
+      <Route path="signup" element={<SignupPage />} />
+
 
     </Route>
   )
