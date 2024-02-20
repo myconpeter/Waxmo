@@ -1,13 +1,29 @@
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 
+
+
+// PAGES
+import Welcome from './pages/welcomePage'
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" >
+      <Route index element={<Welcome />} />
+
+    </Route>
+  )
+);
 
 const App = () => {
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
