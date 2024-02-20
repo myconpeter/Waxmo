@@ -1,31 +1,46 @@
-
+import { FaLocationArrow } from "react-icons/fa";
+import logo from "../assets/logo.svg"
 
 const welcomePage = () => {
     return (
 
         <div
-            className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center bg-welcome-page-background h-screen w-screen rotate-0"
+            className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover bg-no-repeat text-center bg-welcome-page-background h-screen "
+
+
         >
-            {/* <div
+
+            <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
+            <div
                 className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
             >
                 <div className="flex h-full items-center justify-center">
-                    <div className="text-white">
-                        <h2 className="mb-4 text-4xl font-semibold">Heading</h2>
-                        <h4 className="mb-6 text-xl font-semibold">Subheading</h4>
-                        <button
-                            type="button"
-                            className="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-                        >
-                            Call to action
-                        </button>
+                    <div className="text-black flex flex-col items-center">
+                        <img className='rounded-full h-40 w-40 items-center pb-9' src={logo} alt="micheal" />
+
+                        <h4 className=" mt-4 text-4xl  font-signature mb-11 text-white">- The path to finiancial growth -</h4>
+
+                        <div className='group  items-center px-3 mt-36  bg-lightGray rounded-full flex cursor-pointer w-fit '>
+                            <a
+                                className='group text-blabk items-center p-3 px-3 bg-blue-500 text-2xl font-bold  rounded-lg flex cursor-pointer w-fit' href='#'
+
+                            >
+                                Get Started
+                                <span className='text-black ml-5  '>
+                                    <FaLocationArrow className="text-overLay rotate-45" />
+                                </span>
+
+                            </a>
+
+                        </div>
                     </div>
                 </div>
-            </div> */}
-        </div>
+            </div >
+        </div >
 
 
     )
 }
 
 export default welcomePage
+
