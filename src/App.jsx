@@ -20,6 +20,8 @@ import Notifications from "./pages/notifications";
 import Dashboard from "./pages/dashboard";
 import Settings from "./pages/settings";
 import Me from "./pages/me";
+import Analysis from "./pages/analysis";
+import ShareInfo from "./pages/shareInfo";
 
 
 const router = createBrowserRouter(
@@ -37,6 +39,10 @@ const router = createBrowserRouter(
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="settings" element={<Settings />} />
         <Route path="me" element={<Me />} />
+        <Route path="analysis" element={<Analysis />} />
+        <Route path="shareinfo" element={<ShareInfo />} />
+
+
 
 
       </Route>

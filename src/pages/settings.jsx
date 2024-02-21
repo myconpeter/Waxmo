@@ -9,7 +9,7 @@ const settings = () => {
 
             <div className='mt-8'>
                 <div className=' flex items-center justify-between h-16 w-full bg-darkGray rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Update Password</p>
+                    <p className='text-overLay font-semibold text-xl '>Update Name</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
@@ -23,14 +23,14 @@ const settings = () => {
 
                 </div>
                 <div className=' flex items-center justify-between h-16 w-full bg-darkGray  mt-8 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Update Password</p>
+                    <p className='text-overLay font-semibold text-xl '>Update Moblile Number</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
                 </div>
                 <div className=' flex items-center justify-between h-16 w-full bg-darkGray  mt-8 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Update Password</p>
+                    <p className='text-overLay font-semibold text-xl '>Update Account Details</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 

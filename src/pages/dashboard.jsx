@@ -42,7 +42,7 @@ const dashboard = () => {
 
                             <div className="flex justify-between">
                                 <FaArrowUp />
-                                <p>0-20%</p>
+                                <p>0.20%</p>
                             </div>
 
 
