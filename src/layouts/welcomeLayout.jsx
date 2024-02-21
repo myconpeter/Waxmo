@@ -17,7 +17,7 @@ const welcomeLayout = () => {
 
 
 
-                <Outlet />
+
 
 
             </div>

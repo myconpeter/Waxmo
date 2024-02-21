@@ -7,6 +7,7 @@ import {
 
 // LAYOUTS
 import WelcomeLayout from "./layouts/welcomeLayout";
+import HomeLayout from "./layouts/homeLayout";
 
 
 // PAGES
@@ -18,14 +19,22 @@ import SignupPage from "./pages/signupPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<WelcomeLayout />} >
+    <Route path="/">
       <Route index element={<Welcome />} />
       <Route path="loginORsignup" element={<LoginORsignup />} />
       <Route path="login" element={<LoginPage />} />
       <Route path="signup" element={<SignupPage />} />
 
 
+      <Route path="homepage" element={<HomeLayout />}>
+
+      </Route>
+
     </Route>
+
+
+
+
   )
 );
 
