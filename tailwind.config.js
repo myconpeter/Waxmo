@@ -25,6 +25,7 @@ export default {
       'darkGreen': '#28783d',
       'lightGray': '#fafaf7',
       'darkGray': '#adaca6',
+      'danger': '#c91006',
 
       'white': "#FFFFFF",
       'black': "#000000"
