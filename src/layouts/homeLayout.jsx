@@ -10,6 +10,7 @@ const homeLayout = () => {
     return (
         <div>
 
+
             <nav class="relative bg-brightYellow w-full">
 
 
@@ -19,7 +20,7 @@ const homeLayout = () => {
 
 
 
-                    <div className="fixed z-50 w-fit h-16 max-w-lg -translate-x-1/2  rounded-t-full p-2 bottom-0 left-1/2 bg-lightGray">
+                    <div className="fixed z-50 w-fit h-16 max-w-screen -translate-x-1/2  rounded-t-full p-2 bottom-0 left-1/2 bg-lightGray">
                         <div className="flex w-screen">
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
                                 <IoHome className="text-overLay text-lg" />
@@ -53,7 +54,10 @@ const homeLayout = () => {
                 </div>
             </nav>
 
+
+
             <Outlet />
+
 
         </div>
     )

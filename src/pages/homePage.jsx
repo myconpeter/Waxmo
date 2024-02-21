@@ -1,8 +1,16 @@
-import { FaUser } from "react-icons/fa6";
-import { FaCheck } from "react-icons/fa";
-import { IoMdEye } from "react-icons/io";
-import { IoMdEyeOff } from "react-icons/io";
-import { FaRegCircle } from "react-icons/fa";
+import logo from "../assets/logo.svg"
+import { FaHandshakeSimple } from "react-icons/fa6";
+import { IoInformationCircle } from "react-icons/io5";
+import { IoIosChatbubbles } from "react-icons/io";
+import { FaUsers } from "react-icons/fa";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { FaChartLine } from "react-icons/fa6";
+
+
+
+
+
+
 import { Link } from "react-router-dom";
 
 const homePage = () => {
@@ -16,54 +24,86 @@ const homePage = () => {
 
             <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
             <div
-                className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+                className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed"
             >
+                <div className=" flex flex-col items-center bg-transparent  absolute mt-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full">
+                    <img className='rounded-full h-28 w-28 top-12 items-center' src={logo} alt="micheal" />
+
+                    <h4 className=" mt-1  font-signature mb-11 text-white">The path to finiancial growth </h4>
+                </div>
 
 
 
-                <div className="bg-transparent  h-screen overflow-hidden flex items-center justify-center pt-20">
-                    <div className="bg-white w-screen h-full shadow-3xl rounded-t-3xl">
-                        <div className="flex flex-col items-center bg-lightGray shadow shadow-gray-200 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full p-4">
-                            <FaUser className="text-4xl text-overLay " />
+                <div className="bg-transparent  h-screen overflow-hidden flex items-center justify-center pt-36">
+                    <div className="bg-white w-screen h-full  rounded-t-3xl pt-1 ">
 
-                            <p className="font-bold">Login</p>
+                        {/* this is for ads take note */}
+                        {/* this is for ads take note */}
+                        {/* this is for ads take note */}
+                        <div className=" flex items-center mt-0 pt-0 justify-center w-full h-12  absolute mb-36 bg-overLay rounded-t-3xl">
+                            <p className="text-white">ADS</p>
                         </div>
-                        <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
-                            <div className="flex flex-col items-start justify-center text-lg mb-6">
 
-                                <p className="text-overLay font-semibold">Email</p>
+                        {/* this is for ads take note */}
 
-                                <div className="flex border-b-2 border-overLay">
+                        <section className="relative mt-20 m-6">
+                            <div className="flex space-x-6  ">
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <FaChartLine className="font-extrabold text-5xl text-overLay " />
 
-                                    <input type="text" id="username" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
-                                    <FaCheck className="text-overLay" />
+                                    <p className="text-overLay font-bold text-xl">Dashboard</p>
+
                                 </div>
 
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <IoInformationCircle className="font-extrabold text-5xl text-overLay " />
+
+                                    <p className="text-overLay font-bold text-xl">Information</p>
+
+                                </div>
                             </div>
-                            <div className="flex flex-col items-start text-lg mb-6 pt-5">
+                            <div className="flex space-x-6 mt-16  ">
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <FaUsers className="font-extrabold text-5xl text-overLay " />
 
-                                <p className="text-overLay font-semibold">Password</p>
+                                    <p className="text-overLay font-bold text-xl">About Us</p>
 
-                                <div className="flex border-b-2 border-overLay">
-
-                                    <input type="password" id="username" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
-                                    <IoMdEye className="text-overLay" />
                                 </div>
 
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <MdOutlineSupportAgent className="font-extrabold text-5xl text-overLay " />
+
+                                    <p className="text-overLay font-bold text-xl">Contact Us</p>
+
+                                </div>
                             </div>
+                            <div className="flex space-x-6 mt-16  ">
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <FaHandshakeSimple className="font-extrabold text-5xl text-overLay " />
 
-                            <div className="pb-8 flex  justify-end">
-                                <Link to="#" className="">Forgotten Password ? </Link>
+                                    <p className="text-overLay font-bold text-xl">Partnership</p>
+
+                                </div>
+
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <IoIosChatbubbles className="font-extrabold text-5xl text-overLay " />
+
+                                    <p className="text-overLay font-bold text-xl">F A Q</p>
+
+                                </div>
                             </div>
-                            <button className="bg-overLay font-medium p-2 md:p-4 text-white uppercase w-full rounded-full">Login</button>
-                        </form>
+                        </section>
 
-                        <div className="flex flex-col items-end p-6 space-y-6 ">
-
-                            <p>Dont't have an account ? </p>
-                            <Link to="/signup" className="text-3xl font-bold text-overLay">Sign Up</Link>
-
+                        {/* this is for ads take note */}
+                        {/* this is for ads take note */}
+                        {/* this is for ads take note */}
+                        <div className=" flex items-center mt-16 pt-0 justify-center w-full h-12  absolute mb-36 bg-overLay rounded-xl">
+                            <p className="text-white">ADS</p>
                         </div>
+
+                        {/* this is for ads take note */}
+
+
                     </div>
                 </div>
 

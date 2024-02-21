@@ -16,6 +16,8 @@ import LoginORsignup from "./pages/loginORsignup";
 import LoginPage from "./pages/loginPage";
 import SignupPage from "./pages/signupPage";
 import HomePage from "./pages/homePage";
+import Notifications from "./pages/notifications";
+import Dashboard from "./pages/dashboard";
 
 
 const router = createBrowserRouter(
@@ -27,8 +29,11 @@ const router = createBrowserRouter(
       <Route path="signup" element={<SignupPage />} />
 
 
-      <Route path="/homepage" element={<HomeLayout />}>
+      <Route path="home" element={<HomeLayout />}>
         <Route index element={<HomePage />} />
+        <Route path="notifications" element={<Notifications />} />
+        <Route path="dashboard" element={<Dashboard />} />
+
 
       </Route>
 

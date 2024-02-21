@@ -23,6 +23,8 @@ export default {
       current: 'currentColor',
       'overLay': '#1f6938',
       'lightGray': '#fafaf7',
+      'darkGray': '#adaca6',
+
       'white': "#FFFFFF",
       'black': "#000000"
 
