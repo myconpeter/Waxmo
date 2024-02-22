@@ -5,7 +5,7 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 
 
 
-const buyShare = () => {
+const BuyShare = () => {
 
     const [selected, setSelected] = useState(null)
 
@@ -64,7 +64,6 @@ const buyShare = () => {
         </div>
     )
 }
-
 
 
 const data = [
@@ -155,4 +154,4 @@ const data = [
     }
 ]
 
-export default buyShare
+export default BuyShare

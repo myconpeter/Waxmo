@@ -23,6 +23,8 @@ import Me from "./pages/me";
 import Analysis from "./pages/analysis";
 import ShareInfo from "./pages/shareInfo";
 import BuyShare from "./pages/buyShare";
+import Information from "./pages/information";
+import About from "./pages/About";
 
 
 const router = createBrowserRouter(
@@ -43,6 +45,8 @@ const router = createBrowserRouter(
         <Route path="analysis" element={<Analysis />} />
         <Route path="shareinfo" element={<ShareInfo />} />
         <Route path="buyshare" element={<BuyShare />} />
+        <Route path="infomation" element={<Information />} />
+        <Route path="about" element={<About />} />
 
 
 
