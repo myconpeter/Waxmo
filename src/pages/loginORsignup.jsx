@@ -33,12 +33,12 @@ const loginORsignup = () => {
                             <h4 className=" mt-4 text-4xl   text-white">You're Welcome!</h4>
 
 
-                            <div className="">
+                            <div className=" ">
 
                                 <div className='group border-2 border-white mb-2  items-center px-3 mt-12  bg-transparent rounded-full flex flex-col w-screen '>
                                     <Link
                                         to="/login"
-                                        className='group text-blabk items-center p-3  text-white  bg-blue-500 text-2xl font-semibold rounded-lg flex cursor-pointer w-fit'
+                                        className='group text-blabk items-center p-3  text-white   text-2xl font-semibold rounded-lg flex cursor-pointer w-fit'
                                     >
                                         LOGIN
                                     </Link>
@@ -46,7 +46,7 @@ const loginORsignup = () => {
                                 <div className='group border-2 border-white   items-center px-3   bg-white rounded-full flex flex-col w-screen '>
                                     <Link
                                         to="/signup"
-                                        className='group text-blabk items-center p-3  text-black  bg-blue-500 text-2xl font-bold rounded-lg flex cursor-pointer w-fit'
+                                        className='group text-blabk items-center p-3  text-black   text-2xl font-bold rounded-lg flex cursor-pointer w-fit'
                                     >
                                         SIGNUP
                                     </Link>

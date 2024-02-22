@@ -1,5 +1,9 @@
 import { useState } from "react";
 import Menu from '../components/menu'
+import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowUp } from "react-icons/md";
+
+
 
 const ShareInfo = () => {
 
@@ -18,7 +22,7 @@ const ShareInfo = () => {
 
 
     return (
-        <div className='mt-2 p-2'>
+        <div className='mt-2 p-2 '>
             <Menu />
 
 
@@ -26,10 +30,11 @@ const ShareInfo = () => {
             {data.map((item) => (
                 <div className='mt-2 ml-4 bg-darkGray d p-2 rounded-lg' key={item.id}>
 
-                    <div className="flex text-lg font-medium text-red-500 dark:text-green-500 justify-between items-center cursor-pointer" onClick={() => toggle(item.id)}>
+                    <div className="flex text-lg font-medium  justify-between items-center cursor-pointer" onClick={() => toggle(item.id)}>
                         <h3 className='text-overLay'>{item.title}</h3>
 
-                        <span>{selected === item.id ? '-' : '+'}</span>
+                        <span>{selected === item.id ? <MdKeyboardArrowDown /> : <MdKeyboardArrowUp />
+                        }</span>
 
                     </div>
 

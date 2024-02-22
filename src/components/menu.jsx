@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
-import { IoCaretBackCircleSharp } from "react-icons/io5";
+import { MdArrowBackIosNew } from "react-icons/md";
+
 
 
 
@@ -45,13 +46,13 @@ const Menu = () => {
 
 
     return (
-        <div className='flex  bg-white  h-20'>
+        <div className='fixed z-50 w-fit h-16 max-w-screen -translate-x-1/2  top-0 left-1/2 bg-lightGray'>
 
 
-            <div className='flex items-center justify-between   h-20 w-screen'>
+            <div className='flex items-center justify-between  p-2  h-fit w-screen'>
 
                 <div className=''>
-                    <button className=' text-overLay bg-white   mr-4  h-20 text-3xl   '>{<IoCaretBackCircleSharp />}
+                    <button className=' text-overLay bg-white   mr-4  text-3xl   '>{<MdArrowBackIosNew />}
                     </button>
                 </div>
 

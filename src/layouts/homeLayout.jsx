@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 
 const homeLayout = () => {
     return (
-        <div>
+        <div className="mb-20">
 
 
             <nav class="relative bg-brightYellow w-full">
@@ -20,7 +20,7 @@ const homeLayout = () => {
 
 
 
-                    <div className="fixed z-50 w-fit h-16 max-w-screen -translate-x-1/2  rounded-t-full p-2 bottom-0 left-1/2 bg-lightGray">
+                    <div className="fixed z-50 w-fit h-16 max-w-screen  -translate-x-1/2  rounded-t-full p-2 bottom-0 left-1/2 bg-lightGray">
                         <div className="flex w-screen">
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
                                 <IoHome className="text-overLay text-lg" />
@@ -29,7 +29,7 @@ const homeLayout = () => {
                             <div className=" flex flex-col flex-1 items-center justify-center" >
 
                                 <FaBell className="text-overLay text-lg" />
-                                <p className="text-center text-xs text-overLay">notifications</p>
+                                <p className="text-center text-xs text-overLay">Notifications</p>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center" >
 
@@ -39,7 +39,7 @@ const homeLayout = () => {
                             <div className=" flex flex-col flex-1 items-center justify-center" >
 
                                 <IoSettingsSharp className="text-overLay text-lg" />
-                                <p className="text-center text-xs text-overLay">settings</p>
+                                <p className="text-center text-xs text-overLay">Settings</p>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center" >
 
