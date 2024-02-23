@@ -66,7 +66,7 @@ const loginORsignup = () => {
                                     <FaFacebook className="text-overLay bg-white" />
                                 </a>
                                 <a target="_blank" href="#">
-                                    <FaSquareXTwitter className="text-white bg-black" />
+                                    <FaSquareXTwitter className="text-overLay bg-white" />
                                 </a>
                                 <a target="_blank" href="#">
                                     <FaSquareWhatsapp className="text-overLay bg-white" />

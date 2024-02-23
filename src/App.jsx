@@ -25,7 +25,8 @@ import ShareInfo from "./pages/shareInfo";
 import BuyShare from "./pages/buyShare";
 import Information from "./pages/information";
 import About from "./pages/About";
-
+import Contact from './pages/contact'
+import Faq from "./pages/faq";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -47,6 +48,8 @@ const router = createBrowserRouter(
         <Route path="buyshare" element={<BuyShare />} />
         <Route path="infomation" element={<Information />} />
         <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="faq" element={<Faq />} />
 
 
 

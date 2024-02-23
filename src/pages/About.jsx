@@ -1,6 +1,7 @@
 import Menu from "../components/menu";
-import logo from "../assets/logo.svg"
-
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareWhatsapp } from "react-icons/fa6";
 
 
 const About = () => {
@@ -8,24 +9,52 @@ const About = () => {
         <div>
             <Menu />
 
-            <div
-                className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover bg-no-repeat text-center bg-welcome-page-background h-screen "
-
-
-            >
-
-                <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
-                <div
-                    className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed"
-                >
-                    <div className=" flex flex-col items-center bg-transparent  absolute mt-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full">
-                        <img className='rounded-full h-28 w-28 top-12 items-center' src={logo} alt="micheal" />
-
-                        <h4 className=" mt-1  font-signature mb-11 text-white">The path to finiancial growth </h4>
-                    </div>
+            <div className="mt-20 px-3">
+                <div className="space-y-4">
+                    <p className="text-center font-semibold text-3xl text-darkGreen underline">About Us</p>
+                    <p className="text-overLay text-center"> WaxMo is a finiancial tecnnology company that provides a platfrom for investing and utilizing every penny</p>
+                </div>
+                <div className="space-y-4 mt-5">
+                    <p className="text-center font-semibold text-3xl text-darkGreen underline">What defines us</p>
+                    <ul className="text-overLay">
+                        <li> - Simplicity </li>
+                        <li>  - Transparency </li>
+                        <li>  - Effective</li>
+                        <li>  - Accountability </li>
+                        <li>  - Team Management </li>
+                        <li>  - Growth and Development </li>
+                        <li>  - Investors Satisfaction </li>
+                    </ul>
                 </div>
             </div>
 
+            <div className="mt-12">
+                <p className="text-center">
+                    Visit us on our social media platform
+                </p>
+                <div className="flex flex-row items-center justify-center mt-3 space-x-2">
+
+
+
+                    <a target="_blank" href="#">
+                        <FaFacebook className="text-overLay bg-white" />
+                    </a>
+                    <a target="_blank" href="#">
+                        <FaSquareXTwitter className="text-overLay bg-white" />
+                    </a>
+                    <a target="_blank" href="#">
+                        <FaSquareWhatsapp className="text-overLay bg-white" />
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div className="text-overLay pt-10">
+                <p className="text-center">
+                    Copyright &copy; WaxMo tecnnologies
+                </p>
+            </div>
 
         </div>
     )
