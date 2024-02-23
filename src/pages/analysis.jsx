@@ -7,6 +7,10 @@ const Analysis = () => {
         <div className='bg-white w-full h-screen p-2'>
             <Menu />
 
+            <div className='mt-20'>
+
+            </div>
+
             <div className='m-5 flex justify-between outline-2'>
 
                 <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center'>
@@ -37,6 +41,12 @@ const Analysis = () => {
                     <p>Day</p>
                     <p className='text-2xl'>11</p>
                 </div>
+
+
+            </div>
+
+            <div>
+
 
 
             </div>
