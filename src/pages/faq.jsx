@@ -41,8 +41,7 @@ const faq = () => {
                     <div className="flex text-lg font-medium  justify-between items-center cursor-pointer" onClick={() => toggle(item.id)}>
                         <h3 className='text-overLay'>{item.title}</h3>
 
-                        <span>{selected === item.id ? <MdKeyboardArrowDown /> : <MdKeyboardArrowUp />
-                        }</span>
+                        <span>{selected === item.id ? <MdKeyboardArrowDown /> : <MdKeyboardArrowUp />}</span>
 
                     </div>
 

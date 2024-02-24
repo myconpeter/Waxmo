@@ -1,5 +1,11 @@
 import Menu from '../components/menu'
 import { IoIosArrowDroprightCircle } from "react-icons/io";
+import Charts from '../assets/charts.png'
+import Pattern from '../assets/pattern.svg'
+import Patterns from '../assets/patterns.svg'
+import { FcLineChart } from "react-icons/fc";
+
+
 
 
 const Analysis = () => {
@@ -45,11 +51,32 @@ const Analysis = () => {
 
             </div>
 
-            <div>
+            <div className='flex justify-evenly'>
+                <div className='flex flex-col space-y-4  justify-evenly mt-10'>
+
+                    <div className=' h-72 w-36 bg-darkGreen rounded-lg'>
+                    </div>
+                    <div className='h-60 w-36 bg-darkGray rounded-lg'>
+                    </div>
+
+                </div>
+
+                <div className='flex flex-col space-y-4  justify-evenly mt-10'>
+
+                    <div className='h-60 w-36 bg-darkGreen rounded-lg'>
+                    </div>
+                    <div className='h-72 w-36 bg-darkGray rounded-lg'>
+                    </div>
 
 
+
+
+                </div>
 
             </div>
+
+
+
 
 
         </div>

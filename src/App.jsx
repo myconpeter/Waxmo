@@ -27,6 +27,10 @@ import Information from "./pages/information";
 import About from "./pages/About";
 import Contact from './pages/contact'
 import Faq from "./pages/faq";
+import UpdateName from "./pages/settings/UpdateName";
+import UpdatePassword from "./pages/settings/UpdatePassword";
+import UpdateMobileNO from "./pages/settings/UpdateMobileNo";
+import UpdateAccountDetails from "./pages/settings/UpdateAcctountDetails";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -42,6 +46,10 @@ const router = createBrowserRouter(
         <Route path="notifications" element={<Notifications />} />
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="settings" element={<Settings />} />
+
+
+
+
         <Route path="me" element={<Me />} />
         <Route path="analysis" element={<Analysis />} />
         <Route path="shareinfo" element={<ShareInfo />} />
@@ -50,11 +58,14 @@ const router = createBrowserRouter(
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="faq" element={<Faq />} />
-
-
-
-
+        <Route path="updatename" element={<UpdateName />} />
+        <Route path="updatepassword" element={<UpdatePassword />} />
+        <Route path="updatemobileno" element={<UpdateMobileNO />} />
+        <Route path="updateaccountdetails" element={<UpdateAccountDetails />} />
       </Route>
+
+
+
 
     </Route>
 

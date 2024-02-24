@@ -3,7 +3,7 @@ import { FaBell } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
 import { IoSettingsSharp } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 
 const homeLayout = () => {
@@ -11,10 +11,10 @@ const homeLayout = () => {
         <div className="mb-20">
 
 
-            <nav class="relative bg-brightYellow w-full">
+            <nav className="relative">
 
 
-                <div class="flex item-center justify-between">
+                <div className="flex item-center justify-between">
 
 
 
@@ -23,8 +23,14 @@ const homeLayout = () => {
                     <div className="fixed z-50 w-fit h-16 max-w-screen  -translate-x-1/2  rounded-t-full p-2 bottom-0 left-1/2 bg-lightGray">
                         <div className="flex w-screen">
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
-                                <IoHome className="text-overLay text-lg" />
-                                <p className="text-center text-xs text-overLay">Home</p>
+                                <NavLink to='/home' className={({ isActive })}>
+                                    <IoHome className="text-overLay text-lg" />
+                                    <p className="text-center text-xs text-overLay">Home</p>
+                                </NavLink>
+                                {/* <NavLink to="/home" className={({ isActive }) =>
+                                    isActive ? <IoHome className="text-black text-lg" /> : <IoHome className="text-overLay text-lg" />}>Home
+                                </NavLink> */}
+
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center" >
 
@@ -52,14 +58,14 @@ const homeLayout = () => {
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav >
 
 
 
             <Outlet />
 
 
-        </div>
+        </div >
     )
 }
 
