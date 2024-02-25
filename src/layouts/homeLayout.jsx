@@ -30,7 +30,7 @@ const homeLayout = () => {
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
-                                <NavLink to="/home/analysis" className={({ isActive }) =>
+                                <NavLink to="/home/notifications" className={({ isActive }) =>
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <FaBell />
                                     Notification

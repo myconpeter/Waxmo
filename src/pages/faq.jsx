@@ -10,13 +10,9 @@ const faq = () => {
     const [selected, setSelected] = useState(null)
 
     const toggle = (i) => {
-        console.log(i)
-
         if (selected === i) {
             return setSelected(null)
-
         }
-
         setSelected(i)
     }
 
@@ -24,16 +20,11 @@ const faq = () => {
     return (
         <div className='mt-2 p-2 '>
             <Menu />
-
             <div className="mt-16 mb-5 ">
-
                 <p className="text-center font-semibold text-xl">
                     Here are our Frequently Asked Questions
                 </p>
-
             </div>
-
-
 
             {data.map((item) => (
                 <div className='mt-2 ml-4 bg-darkGray d p-2 rounded-lg' key={item.id}>

@@ -10,8 +10,6 @@ import Ananlysis from "../assets/analysis.jpg"
 
 
 
-
-
 const dashboard = () => {
     return (
         <div className="bg-white w-full h-screen p-2 ">
@@ -61,7 +59,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20 rounded-xl" src={Investment} alt="Investment" srcset="" />
+                                <img className="w-20 rounded-xl" src={Investment} alt="Investment" />
                             </div>
 
                         </div>
@@ -71,7 +69,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20 rounded-xl" src={Ananlysis} alt="Ananlysis" srcset="" />
+                                <img className="w-20 rounded-xl" src={Ananlysis} alt="Ananlysis" />
                             </div>
 
                         </div>
@@ -81,7 +79,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20 rounded-xl" src={Shares} alt="Shares" srcset="" />
+                                <img className="w-20 rounded-xl" src={Shares} alt="Shares" />
                             </div>
 
                         </div>
