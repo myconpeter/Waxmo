@@ -23,36 +23,43 @@ const homeLayout = () => {
                     <div className="fixed z-50 w-fit h-16 max-w-screen  -translate-x-1/2  rounded-t-full p-2 bottom-0 left-1/2 bg-lightGray">
                         <div className="flex w-screen">
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
-                                <NavLink to='/home' className={({ isActive })}>
-                                    <IoHome className="text-overLay text-lg" />
-                                    <p className="text-center text-xs text-overLay">Home</p>
+                                <NavLink to="/home/homepage" className={({ isActive }) =>
+                                    isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
+                                    <IoHome />
+                                    Home
                                 </NavLink>
-                                {/* <NavLink to="/home" className={({ isActive }) =>
-                                    isActive ? <IoHome className="text-black text-lg" /> : <IoHome className="text-overLay text-lg" />}>Home
-                                </NavLink> */}
-
                             </div>
-                            <div className=" flex flex-col flex-1 items-center justify-center" >
-
-                                <FaBell className="text-overLay text-lg" />
-                                <p className="text-center text-xs text-overLay">Notifications</p>
+                            <div className=" flex flex-col flex-1 items-center justify-center  " >
+                                <NavLink to="/home/analysis" className={({ isActive }) =>
+                                    isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
+                                    <FaBell />
+                                    Notification
+                                </NavLink>
                             </div>
-                            <div className=" flex flex-col flex-1 items-center justify-center" >
-
-                                <MdDashboard className="text-overLay text-lg" />
-                                <p className="text-center text-xs text-overLay">Dashboard</p>
+                            <div className=" flex flex-col flex-1 items-center justify-center  " >
+                                <NavLink to="/home/dashboard" className={({ isActive }) =>
+                                    isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
+                                    <MdDashboard />
+                                    Dashboard
+                                </NavLink>
                             </div>
-                            <div className=" flex flex-col flex-1 items-center justify-center" >
-
-                                <IoSettingsSharp className="text-overLay text-lg" />
-                                <p className="text-center text-xs text-overLay">Settings</p>
+                            <div className=" flex flex-col flex-1 items-center justify-center  " >
+                                <NavLink to="/home/settings" className={({ isActive }) =>
+                                    isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
+                                    <IoSettingsSharp />
+                                    Settings
+                                </NavLink>
                             </div>
-                            <div className=" flex flex-col flex-1 items-center justify-center" >
-
-                                <FaUser className="text-overLay text-lg" />
-                                <p className="text-center text-xs text-overLay" >Me</p>
-
+                            <div className=" flex flex-col flex-1 items-center justify-center  " >
+                                <NavLink to="/home/me" className={({ isActive }) =>
+                                    isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
+                                    <FaUser />
+                                    Me
+                                </NavLink>
                             </div>
+
+
+
 
 
                         </div>

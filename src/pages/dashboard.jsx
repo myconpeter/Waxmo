@@ -55,7 +55,7 @@ const dashboard = () => {
                             <p>Actions</p>
                         </div>
 
-                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-12 text-white rounded-3xl">
+                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
                             <div>
                                 <p className="text-2xl font-bold">Buy a share</p>
                             </div>
@@ -65,7 +65,7 @@ const dashboard = () => {
                             </div>
 
                         </div>
-                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-12 text-white rounded-3xl">
+                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
                             <div>
                                 <p className="text-2xl font-bold">Check Analysis</p>
                             </div>
@@ -75,7 +75,7 @@ const dashboard = () => {
                             </div>
 
                         </div>
-                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-12 text-white rounded-3xl">
+                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
                             <div>
                                 <p className="text-2xl font-bold">Shares Information</p>
                             </div>

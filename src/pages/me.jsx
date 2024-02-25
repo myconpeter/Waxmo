@@ -6,7 +6,7 @@ import { IoLogOut } from "react-icons/io5";
 
 const me = () => {
     return (
-        <div className='mt-12 p-2 '>
+        <div className='mt-8 p-2 '>
             <Menu />
 
             <div className='mt-8'>
@@ -17,7 +17,7 @@ const me = () => {
 
 
                 </div>
-                <div className=' flex items-center justify-between h-16 w-full bg-darkGray mt-8 rounded-xl  p-3 '>
+                <div className=' flex items-center justify-between h-16 w-full bg-darkGray mt-4 rounded-xl  p-3 '>
                     <p className='text-overLay font-semibold text-xl '>Add Bank Details</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
@@ -65,7 +65,7 @@ const me = () => {
 
                 </div>
 
-                <div className=' flex items-center justify-between h-16 w-full bg-danger  mt-16 mb-32 rounded-xl  p-3 '>
+                <div className=' flex items-center justify-between h-16 w-full bg-danger  mt-8 mb-32 rounded-xl  p-3 '>
                     <p className='text-black font-semibold text-xl '>Logout</p>
 
                     <IoLogOut className='text-black' />

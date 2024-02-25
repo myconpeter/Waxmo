@@ -42,14 +42,10 @@ const router = createBrowserRouter(
 
 
       <Route path="home" element={<HomeLayout />}>
-        <Route index element={<HomePage />} />
+        <Route path="homepage" element={<HomePage />} />
         <Route path="notifications" element={<Notifications />} />
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="settings" element={<Settings />} />
-
-
-
-
         <Route path="me" element={<Me />} />
         <Route path="analysis" element={<Analysis />} />
         <Route path="shareinfo" element={<ShareInfo />} />
