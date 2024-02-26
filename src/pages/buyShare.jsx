@@ -8,22 +8,17 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 const BuyShare = () => {
 
     const [selected, setSelected] = useState(null)
-
     const toggle = (i) => {
-        console.log(i)
-
         if (selected === i) {
             return setSelected(null)
-
         }
-
         setSelected(i)
     }
 
 
     return (
         <div className='mt-2 p-2 '>
-            <Menu />
+            <Menu PageName='Buy Share' />
 
             <div className="mt-2 relative">
 

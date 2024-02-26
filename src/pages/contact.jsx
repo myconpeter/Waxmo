@@ -8,7 +8,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Contact = () => {
     return (
         <div>
-            <Menu />
+            <Menu PageName='Contact Us' />
             <div className="mt-16 px-3">
                 <div>
                     <p className="text-black text-lg font-semibold">

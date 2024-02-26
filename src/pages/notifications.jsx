@@ -9,7 +9,7 @@ const notifications = () => {
         <div className="bg-overLay w-full h-screen mt-12 " >
             <div className="">
                 <div className="p-2">
-                    <Menu />
+                    <Menu PageName='Notifications' />
                 </div>
             </div>
             <div className="flex items-start gap-2.5 p-2">

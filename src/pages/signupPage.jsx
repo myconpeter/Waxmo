@@ -27,7 +27,7 @@ const signupPage = () => {
 
                             <p className="font-bold">Sign Up</p>
                         </div>
-                        <form action="/" className="pt-6 p-10 flex flex-col items-center justify-center">
+                        <form action="/home/homepage" className="pt-6 p-10 flex flex-col items-center justify-center">
                             <div className="flex flex-col items-start justify-center text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">First Name</p>

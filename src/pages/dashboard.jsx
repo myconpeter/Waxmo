@@ -7,18 +7,19 @@ import { MdVerified } from "react-icons/md";
 import Investment from "../assets/investment.jpg";
 import Shares from "../assets/shares.avif";
 import Ananlysis from "../assets/analysis.jpg"
+import { Link } from "react-router-dom";
 
 
 
 const dashboard = () => {
     return (
-        <div className="bg-white w-full h-screen p-2 ">
-            <Menu />
+        <div className="bg-white w-full  p-2 mt-12 ">
+            <Menu PageName='Dashboard' />
 
             <div>
                 <div>
 
-                    <div className="pt-3">
+                    <div className=" ">
 
                         <p className="text-2xl font-semibold text-darkGreen">Hi, Micheal Peter</p>
 
@@ -26,7 +27,7 @@ const dashboard = () => {
 
                     <div className="h-32 z-50 w-full bg-darkGreen mt-10  rounded-3xl p-2">
 
-                        <div className="flex items-center justify-center  bg-lightGray w-fit px-8 rounded-xl text-black ">
+                        <div className="flex items-center justify-center bg-lightGray w-fit px-8 rounded-xl text-black ">
                             <MdVerified className="text-overLay" />
 
                             <p>1% limited patrner</p>
@@ -53,7 +54,8 @@ const dashboard = () => {
                             <p>Actions</p>
                         </div>
 
-                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
+
+                        <Link to='/home/buyshare' className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
                             <div>
                                 <p className="text-2xl font-bold">Buy a share</p>
                             </div>
@@ -62,8 +64,8 @@ const dashboard = () => {
                                 <img className="w-20 rounded-xl" src={Investment} alt="Investment" />
                             </div>
 
-                        </div>
-                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
+                        </Link>
+                        <Link to='/home/analysis' className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
                             <div>
                                 <p className="text-2xl font-bold">Check Analysis</p>
                             </div>
@@ -72,8 +74,8 @@ const dashboard = () => {
                                 <img className="w-20 rounded-xl" src={Ananlysis} alt="Ananlysis" />
                             </div>
 
-                        </div>
-                        <div className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
+                        </Link>
+                        <Link to='/home/shareinfo' className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
                             <div>
                                 <p className="text-2xl font-bold">Shares Information</p>
                             </div>
@@ -82,7 +84,7 @@ const dashboard = () => {
                                 <img className="w-20 rounded-xl" src={Shares} alt="Shares" />
                             </div>
 
-                        </div>
+                        </Link>
 
                     </div>
                 </div>

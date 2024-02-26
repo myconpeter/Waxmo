@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 
 
-const Menu = () => {
+const Menu = (props) => {
 
     const [nav, setNav] = useState(false);
     const history = useNavigate()
@@ -69,7 +69,7 @@ const Menu = () => {
                 </div>
 
                 <div className="">
-                    <p className="text-3xl font-bold text-center text-overLay"></p>
+                    <p className="text-3xl font-bold text-center text-overLay">{props.PageName}</p>
 
                 </div>
                 <div className=''>

@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const UpdatePassword = () => {
     return (
         <div>
-            <Menu />
+            <Menu PageName='Update Password' />
 
             <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
                 <div className="flex flex-col items-start justify-center text-lg mb-6">

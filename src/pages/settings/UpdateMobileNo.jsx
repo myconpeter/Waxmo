@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const UpdateMobileNO = () => {
     return (
         <div>
-            <Menu />
+            <Menu PageName='Update Phone' />
 
             <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
                 <div className="flex flex-col items-start justify-center text-lg mb-6">
@@ -35,6 +35,18 @@ const UpdateMobileNO = () => {
                     </div>
 
                 </div>
+                <div className="flex flex-col items-start justify-center text-lg mb-6">
+
+                    <p className="text-overLay font-semibold">Confirm Password</p>
+
+                    <div className="flex border-b-2 border-overLay">
+
+                        <input type="password" id="username" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <IoMdEye className="text-overLay" />
+                    </div>
+                </div>
+
+
 
 
 

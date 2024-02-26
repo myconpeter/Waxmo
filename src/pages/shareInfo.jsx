@@ -10,7 +10,7 @@ const ShareInfo = () => {
     const [selected, setSelected] = useState(null)
 
     const toggle = (i) => {
-        console.log(i)
+
 
         if (selected === i) {
             return setSelected(null)
@@ -23,7 +23,10 @@ const ShareInfo = () => {
 
     return (
         <div className='mt-2 p-2 '>
-            <Menu />
+            <Menu PageName='Shares Information' />
+            <div className="mt-16 relative">
+
+            </div>
 
 
 

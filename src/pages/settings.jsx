@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Menu from '../components/menu'
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { IoIosArrowDropdownCircle } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
 
@@ -43,10 +44,10 @@ const settings = () => {
 
     return (
         <div className='bg-white w-full h-screen p-2 pt-20'>
-            <Menu />
+            <Menu PageName='Settings' />
 
             <div className=''>
-                <div>
+                <Link to='/home/updatename' >
 
                     <div className=' flex items-center justify-between h-12 w-full bg-darkGray rounded-xl p-3 '>
                         <p className='text-overLay font-semibold text-xl '>Update Name</p>
@@ -55,32 +56,29 @@ const settings = () => {
 
 
                     </div>
-                </div>
+                </Link>
 
                 {/* <div className='h-36 mt-2  bg-darkGray rounded-3xl'>
 
                 </div> */}
-                <div className=' flex items-center justify-between  h-12 w-full bg-darkGray mt-2 rounded-xl  p-3 '>
+                <Link to='/home/updatepassword' className=' flex items-center justify-between  h-12 w-full bg-darkGray mt-2 rounded-xl  p-3 '>
                     <p className='text-overLay font-semibold text-xl '>Update Password</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
-                </div>
-                <div className=' flex items-center justify-between  h-12 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
+                </Link>
+                <Link to='/home/updatemobileno' className=' flex items-center justify-between  h-12 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
                     <p className='text-overLay font-semibold text-xl '>Update Moblile Number</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
-
-
-
-                </div>
-                <div className=' flex items-center justify-between  h-12 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
+                </Link>
+                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between  h-12 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
                     <p className='text-overLay font-semibold text-xl '>Update Account Details</p>
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
-                </div>
+                </Link>
             </div>
         </div>
     )

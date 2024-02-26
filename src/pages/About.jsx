@@ -7,11 +7,11 @@ import { FaSquareWhatsapp } from "react-icons/fa6";
 const About = () => {
     return (
         <div>
-            <Menu />
+            <Menu PageName='About Us' />
 
             <div className="mt-20 px-3">
                 <div className="space-y-4">
-                    <p className="text-center font-semibold text-3xl text-darkGreen underline">About Us</p>
+                    {/* <p className="text-center font-semibold text-3xl text-darkGreen underline">About Us</p> */}
                     <p className="text-overLay text-center"> WaxMo is a finiancial tecnnology company that provides a platfrom for investing and utilizing every penny</p>
                 </div>
                 <div className="space-y-4 mt-5">

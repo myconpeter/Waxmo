@@ -3,7 +3,7 @@ import Menu from '../components/menu'
 const information = () => {
     return (
         <div>
-            <Menu />
+            <Menu PageName='Information' />
             <div className="mt-16 relative">
 
             </div>

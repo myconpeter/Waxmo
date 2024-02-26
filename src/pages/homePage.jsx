@@ -17,12 +17,12 @@ const homePage = () => {
     return (
 
         <div
-            className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover bg-no-repeat text-center bg-welcome-page-background h-screen "
+            className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover bg-no-repeat  text-center bg-welcome-page-background h-screen pb-36 "
 
 
         >
 
-            <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
+            <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen  w-screen"></div>
             <div
                 className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed"
             >
@@ -35,7 +35,7 @@ const homePage = () => {
 
 
                 <div className="bg-transparent  h-screen overflow-hidden flex items-center justify-center pt-36">
-                    <div className="bg-white w-screen h-full  rounded-t-3xl pt-1 ">
+                    <div className="bg-white w-screen  rounded-t-3xl pt-1 ">
 
                         {/* this is for ads take note */}
                         {/* this is for ads take note */}
@@ -46,62 +46,64 @@ const homePage = () => {
 
                         {/* this is for ads take note */}
 
-                        <section className="relative mt-20 m-6">
+                        <section className="relative mt-20 m-6 h-full">
                             <div className="flex space-x-6  ">
                                 <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
-                                    <FaChartLine className="font-extrabold text-5xl text-overLay " />
+                                    <Link to='/home/dashboard' className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                        <FaChartLine className="font-extrabold text-5xl text-overLay " />
 
-                                    <p className="text-overLay font-bold text-xl">Dashboard</p>
+                                        <p className="text-overLay font-bold text-xl">Dashboard</p>
+
+                                    </Link>
+                                </div>
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <Link to='/home/infomation' className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                        <IoInformationCircle className="font-extrabold text-5xl text-overLay " />
+                                        <p className="text-overLay font-bold text-xl">Information</p>
+
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="flex space-x-6 mt-16  ">
+                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                    <Link to='/home/about' className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                        <FaUsers className="font-extrabold text-5xl text-overLay " />
+
+                                        <p className="text-overLay font-bold text-xl">About Us</p>
+                                    </Link>
 
                                 </div>
 
                                 <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
-                                    <IoInformationCircle className="font-extrabold text-5xl text-overLay " />
-
-                                    <p className="text-overLay font-bold text-xl">Information</p>
+                                    <Link to='/home/contact' className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 " >
+                                        <MdOutlineSupportAgent className="font-extrabold text-5xl text-overLay " />
+                                        <p className="text-overLay font-bold text-xl">Contact Us</p>
+                                    </Link>
 
                                 </div>
                             </div>
                             <div className="flex space-x-6 mt-16  ">
                                 <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
-                                    <FaUsers className="font-extrabold text-5xl text-overLay " />
+                                    <Link to='/home/settings' className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+                                        <FaHandshakeSimple className="font-extrabold text-5xl text-overLay " />
 
-                                    <p className="text-overLay font-bold text-xl">About Us</p>
-
-                                </div>
-
-                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
-                                    <MdOutlineSupportAgent className="font-extrabold text-5xl text-overLay " />
-
-                                    <p className="text-overLay font-bold text-xl">Contact Us</p>
-
-                                </div>
-                            </div>
-                            <div className="flex space-x-6 mt-16  ">
-                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
-                                    <FaHandshakeSimple className="font-extrabold text-5xl text-overLay " />
-
-                                    <p className="text-overLay font-bold text-xl">Partnership</p>
+                                        <p className="text-overLay font-bold text-xl">Partnership</p>
+                                    </Link>
 
                                 </div>
 
-                                <div className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
+
+                                <Link to='/home/faq' className="flex flex-1 flex-col items-center bg-lightGray p-2 rounded-3xl w-1/3 ">
                                     <IoIosChatbubbles className="font-extrabold text-5xl text-overLay " />
 
                                     <p className="text-overLay font-bold text-xl">F A Q</p>
+                                </Link>
 
-                                </div>
+
                             </div>
                         </section>
 
-                        {/* this is for ads take note */}
-                        {/* this is for ads take note */}
-                        {/* this is for ads take note */}
-                        <div className=" flex items-center mt-16 pt-0 justify-center w-full h-12  absolute mb-36 bg-overLay rounded-xl">
-                            <p className="text-white">ADS</p>
-                        </div>
 
-                        {/* this is for ads take note */}
 
 
                     </div>

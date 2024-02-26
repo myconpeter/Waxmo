@@ -2,6 +2,7 @@ import { useState } from "react";
 import Menu from '../components/menu'
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 
@@ -19,7 +20,7 @@ const faq = () => {
 
     return (
         <div className='mt-2 p-2 '>
-            <Menu />
+            <Menu PageName='F A Q' />
             <div className="mt-16 mb-5 ">
                 <p className="text-center font-semibold text-xl">
                     Here are our Frequently Asked Questions
@@ -43,10 +44,11 @@ const faq = () => {
                 </div>
             ))}
 
-            <div className="mt-10">
+
+            <Link to='/home/contact' className="mt-10">
                 <h1 className="text-center font-bold text-xl">Got more questions ? </h1>
                 <p className="text-center pt-6 text-overLay" >Contact us now</p>
-            </div>
+            </Link>
 
         </div>
     )

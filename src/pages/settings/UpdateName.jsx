@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 const UpdateName = () => {
     return (
         <div>
-            <Menu />
+            <Menu PageName='Update Name' />
 
-            <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
+            <form action="#" className="pt-24 p-10 flex flex-col items-center justify-center">
                 <div className="flex flex-col items-start justify-center text-lg mb-6">
 
                     <p className="text-overLay font-semibold">First Name</p>
