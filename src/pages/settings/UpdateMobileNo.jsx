@@ -6,43 +6,57 @@ import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
 import { FaRegCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 
 const UpdateMobileNO = () => {
+
+    const [see, setSee] = useState(false)
+
+    const toggle = (i) => {
+        i.preventDefault();
+        if (see === false) {
+            setSee(true)
+        }
+        else {
+            setSee(false)
+
+        }
+    }
     return (
         <div>
             <Menu PageName='Update Phone' />
 
             <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
-                <div className="flex flex-col items-start justify-center text-lg mb-6">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
                     <p className="text-overLay font-semibold">Old Mobile Number</p>
 
-                    <div className="flex border-b-2 border-overLay">
+                    <div className="flex w-screen ">
 
-                        <input type="text" id="username" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type="text" id="oldnumber" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
 
                     </div>
 
                 </div>
-                <div className="flex flex-col items-start justify-center text-lg mb-6">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
                     <p className="text-overLay font-semibold">New Mobile Number</p>
 
-                    <div className="flex border-b-2 border-overLay">
+                    <div className="">
 
-                        <input type="text" id="username" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type="text" id="newnumber" className="bg-lightGray border-overLay py-2  w-full  focus:outline-none" />
 
                     </div>
 
                 </div>
-                <div className="flex flex-col items-start justify-center text-lg mb-6">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
                     <p className="text-overLay font-semibold">Confirm Password</p>
 
-                    <div className="flex border-b-2 border-overLay">
+                    <div className="flex w-screen">
 
-                        <input type="password" id="username" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
-                        <IoMdEye className="text-overLay" />
+                        <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay w-4/6 focus:outline-none  " />
+                        <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
                     </div>
                 </div>
 
