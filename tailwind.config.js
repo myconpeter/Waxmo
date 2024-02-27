@@ -6,13 +6,7 @@ export default {
   ],
   theme: {
 
-    extend: {
-      backgroundImage: {
-        'welcome-page-background': "url('src/assets/welcomePage-backgroundImage.jpg')",
-
-      }
-
-    },
+    extend: {},
 
     fontFamily: {
       signature: ['Great Vibes']

@@ -1,21 +1,41 @@
 import { FaUserPlus } from "react-icons/fa";
-import { FaCheck } from "react-icons/fa";
+
 import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
-import { FaRegCircle } from "react-icons/fa";
+import BackGround from "../assets/welcomePage-backgroundImage.jpg"
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const signupPage = () => {
+    const [see, setSee] = useState(false)
+
+    const toggle = (i) => {
+        i.preventDefault();
+        if (see === false) {
+            setSee(true)
+        }
+        else {
+            setSee(false)
+
+        }
+    }
+
     return (
 
 
         <div
-            className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover bg-no-repeat text-center bg-welcome-page-background h-screen "
+            className=""
 
 
         >
+            <div className="relative">
+                <img className="" src={BackGround} alt="background" />
+                <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-36"></div>
 
-            <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
+            </div>
+
+
+
             <div
                 className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
             >
@@ -27,70 +47,71 @@ const signupPage = () => {
 
                             <p className="font-bold">Sign Up</p>
                         </div>
-                        <form action="/home/homepage" className="pt-6 p-10 flex flex-col items-center justify-center">
-                            <div className="flex flex-col items-start justify-center text-lg mb-2">
+                        <form action="/home/homepage" className="pt-10 p-10 flex flex-col">
+                            <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">First Name</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex  w-screen   ">
 
-                                    <input type="text" id="username" className="bg-lightGray border-overLay pl-12   w-full  focus:outline-none" />
-                                    <FaCheck className="text-overLay" />
+                                    <input type="text" id="firstname" className="bg-lightGray  w-5/6  focus:outline-none" />
+
+
                                 </div>
 
                             </div>
-                            <div className="flex flex-col items-start justify-center text-lg mb-2">
+                            <div className="flex flex-col border-b-2 border-overLay items-start justify-center text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">Last Name</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex  w-screen  ">
 
-                                    <input type="text" id="username" className="bg-lightGray border-overLay pl-12  w-full  focus:outline-none" />
-                                    <FaCheck className="text-overLay" />
+                                    <input type="text" id="lastname" className="bg-lightGray  w-5/6  focus:outline-none" />
+
                                 </div>
 
                             </div>
-                            <div className="flex flex-col items-start justify-center text-lg mb-2">
+                            <div className="flex flex-col  border-b-2 border-overLay items-start justify-center text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">Phone Number</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex  w-screen  ">
 
-                                    <input type="text" id="username" className="bg-lightGray border-overLay pl-12   w-full  focus:outline-none" />
-                                    <FaCheck className="text-overLay" />
+                                    <input type="text" id="phonenumber" className="bg-lightGray w-5/6 focus:outline-none" />
+
                                 </div>
 
                             </div>
-                            <div className="flex flex-col items-start justify-center text-lg mb-2">
+                            <div className="flex flex-col border-b-2 border-overLay items-start justify-center text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">Email</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex w-screen ">
 
-                                    <input type="email" id="username" className="bg-lightGray border-overLay pl-12   w-full  focus:outline-none" />
-                                    <FaCheck className="text-overLay" />
+                                    <input type="email" id="email" className="bg-lightGray w-5/6  focus:outline-none" />
+
                                 </div>
 
                             </div>
-                            <div className="flex flex-col items-start text-lg mb-2 pt-2">
+                            <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2 pt-2">
 
                                 <p className="text-overLay font-semibold">Password</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex w-screen ">
 
-                                    <input type="password" id="username" className="bg-lightGray border-overLay pl-12  w-full  focus:outline-none" />
-                                    <IoMdEye className="text-overLay" />
+                                    <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay w-4/6 focus:outline-none  " />
+                                    <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
                                 </div>
 
                             </div>
-                            <div className="flex flex-col items-start text-lg mb-2 pt-2">
+                            <div className="flex flex-col  border-b-2 border-overLay w-full items-start text-lg mb-2 pt-2">
 
                                 <p className="text-overLay font-semibold">Confirm Password</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex w-screen ">
 
-                                    <input type="password" id="username" className="bg-lightGray border-overLay pl-12   w-full  focus:outline-none" />
-                                    <IoMdEye className="text-overLay" />
+                                    <input type={see === true ? "text" : "password"} id="confirmpassword" className="bg-lightGray border-overLay w-4/6 focus:outline-none  " />
+                                    <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
                                 </div>
 
                             </div>

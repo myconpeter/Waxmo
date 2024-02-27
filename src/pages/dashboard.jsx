@@ -1,6 +1,7 @@
 import Menu from "../components/menu";
-import { FaEye } from "react-icons/fa";
-import { FaEyeSlash } from "react-icons/fa";
+import { IoMdEye } from "react-icons/io";
+import { IoMdEyeOff } from "react-icons/io";
+
 import { FaArrowUp } from "react-icons/fa";
 
 import { MdVerified } from "react-icons/md";
@@ -8,12 +9,29 @@ import Investment from "../assets/investment.jpg";
 import Shares from "../assets/shares.avif";
 import Ananlysis from "../assets/analysis.jpg"
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 
 
 const dashboard = () => {
+
+    const [see, setSee] = useState(false)
+
+    const toggle = (i) => {
+        i.preventDefault();
+        if (see === false) {
+            setSee(true)
+        }
+        else {
+            setSee(false)
+
+        }
+    }
+
+    const Amount = 10000;
     return (
-        <div className="bg-white w-full  p-2 mt-12 ">
+
+        <div className="bg-white w-full  p-2 mt-12 " >
             <Menu PageName='Dashboard' />
 
             <div>
@@ -25,7 +43,7 @@ const dashboard = () => {
 
                     </div>
 
-                    <div className="h-32 z-50 w-full bg-darkGreen mt-10  rounded-3xl p-2">
+                    <div className="h-32 z-50 w-full bg-darkGreen mt-5  rounded-3xl p-2">
 
                         <div className="flex items-center justify-center bg-lightGray w-fit px-8 rounded-xl text-black ">
                             <MdVerified className="text-overLay" />
@@ -34,10 +52,11 @@ const dashboard = () => {
                         </div>
 
                         <div className="text-white flex justify-between pt-4 text-xl font-bold">
-                            <p>₦ 10,000</p>
+                            <p>{see === true ? '****' : Amount}</p>
 
 
-                            <FaEyeSlash />
+                            <button onClick={toggle}>{see === true ? <IoMdEye className="text-white" /> : <IoMdEyeOff className="text-white" />}</button>
+
 
                             <div className="flex justify-between">
                                 <FaArrowUp />
@@ -50,7 +69,7 @@ const dashboard = () => {
                     </div>
                     <div>
 
-                        <div className=" mt-5 ">
+                        <div className=" mt-5 mx-4 ">
                             <p>Actions</p>
                         </div>
 
@@ -91,7 +110,7 @@ const dashboard = () => {
 
             </div>
 
-        </div>
+        </div >
     )
 }
 

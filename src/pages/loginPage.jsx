@@ -5,6 +5,8 @@ import { IoMdEyeOff } from "react-icons/io";
 import { FaRegCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import BackGround from "../assets/welcomePage-backgroundImage.jpg"
+
 
 const loginPage = () => {
     const [see, setSee] = useState(false)
@@ -16,16 +18,23 @@ const loginPage = () => {
         }
         else {
             setSee(false)
+
         }
     }
 
     return (
 
         <div
-            className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover bg-no-repeat text-center bg-welcome-page-background h-screen "
+            className=""
 
 
         >
+
+            <div className="relative">
+                <img className="" src={BackGround} alt="background" />
+                <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-36"></div>
+
+            </div>
 
             <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
             <div
@@ -49,7 +58,7 @@ const loginPage = () => {
                                 <div className="flex border-b-2 border-overLay">
 
                                     <input type="text" id="email" className="bg-lightGray border-overLay pl-12 py-2 w-full focus:outline-none  " />
-                                    <FaCheck className="text-overLay" />
+                                    {/* <FaCheck className="text-overLay" /> */}
                                 </div>
 
                             </div>

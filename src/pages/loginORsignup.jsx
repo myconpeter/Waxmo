@@ -1,8 +1,9 @@
-import logo from "../assets/logo.svg"
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import BackGround from "../assets/welcomePage-backgroundImage.jpg"
+
 
 const loginORsignup = () => {
     return (
@@ -11,13 +12,13 @@ const loginORsignup = () => {
 
 
 
-            <div
-                className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover text-center bg-welcome-page-background h-screen "
+            <div >
+                <div className="relative">
+                    <img className="w-screen h-screen" src={BackGround} alt="background" />
+                    <div className="bg-overLay absolute inset-0 opacity-75 w-screen h-screen"></div>
 
+                </div>
 
-            >
-
-                <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
                 <div
                     className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
                 >
@@ -26,7 +27,7 @@ const loginORsignup = () => {
 
                     <div className="flex h-full pt-10 ">
                         <div className="text-black flex flex-col items-center">
-                            <img className='rounded-full h-28 w-28 top-12 items-center pb-9' src={logo} alt="micheal" />
+                            {/* <img className='rounded-full h-28 w-28 top-12 items-center pb-9' src={logo} alt="micheal" /> */}
 
                             {/* <h4 className=" mt-4 text-4xl  font-signature mb-11 text-white">- The path to finiancial growth -</h4> */}
 
@@ -43,7 +44,7 @@ const loginORsignup = () => {
                                         to="/login"
                                         className=' items-center p-3  text-white   text-2xl font-semibold rounded-lg flex '
                                     >
-                                        LOGIN
+                                        LOG IN
                                     </Link>
                                 </div>
                                 <div className=' border-2 border-white   items-center  bg-white rounded-full flex flex-col w-5/6 '>
@@ -51,7 +52,7 @@ const loginORsignup = () => {
                                         to="/signup"
                                         className=' text-blabk items-center p-3  text-black   text-2xl font-bold rounded-lg flex w-fit'
                                     >
-                                        SIGNUP
+                                        SIGN UP
                                     </Link>
                                 </div>
                             </div>

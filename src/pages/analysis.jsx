@@ -1,8 +1,6 @@
 import Menu from '../components/menu'
 import { IoIosArrowDroprightCircle } from "react-icons/io";
-import Charts from '../assets/charts.png'
-import Pattern from '../assets/pattern.svg'
-import Patterns from '../assets/patterns.svg'
+
 import { FcLineChart } from "react-icons/fc";
 
 
