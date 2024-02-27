@@ -31,6 +31,7 @@ import UpdateName from "./pages/settings/UpdateName";
 import UpdatePassword from "./pages/settings/UpdatePassword";
 import UpdateMobileNO from "./pages/settings/UpdateMobileNo";
 import UpdateAccountDetails from "./pages/settings/UpdateAcctountDetails";
+import RecoverPassword from "./pages/RecoverPassword";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -39,6 +40,7 @@ const router = createBrowserRouter(
       <Route path="loginORsignup" element={<LoginORsignup />} />
       <Route path="login" element={<LoginPage />} />
       <Route path="signup" element={<SignupPage />} />
+      <Route path="recoverpassword" element={<RecoverPassword />} />
 
 
       <Route path="home" element={<HomeLayout />}>
@@ -58,6 +60,7 @@ const router = createBrowserRouter(
         <Route path="updatepassword" element={<UpdatePassword />} />
         <Route path="updatemobileno" element={<UpdateMobileNO />} />
         <Route path="updateaccountdetails" element={<UpdateAccountDetails />} />
+
       </Route>
 
 

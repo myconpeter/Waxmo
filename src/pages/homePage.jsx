@@ -5,6 +5,8 @@ import { IoIosChatbubbles } from "react-icons/io";
 import { FaUsers } from "react-icons/fa";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { FaChartLine } from "react-icons/fa6";
+import BackGround from "../assets/welcomePage-backgroundImage.jpg";
+
 
 
 
@@ -16,24 +18,21 @@ import { Link } from "react-router-dom";
 const homePage = () => {
     return (
 
-        <div
-            className=" bg-black bg-opacity-100 relative overflow-hidden bg-cover bg-no-repeat  text-center bg-welcome-page-background h-screen pb-36 "
+        <div className="">
+            <div className="relative">
+                <img className="" src={BackGround} alt="background" />
+                <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-full"></div>
+
+            </div>
 
 
-        >
-
-            <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen  w-screen"></div>
             <div
                 className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed"
             >
-                <div className=" flex flex-col items-center bg-transparent  absolute mt-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full">
-                    {/* <img className='rounded-full h-28 w-28 top-12 items-center' src={logo} alt="micheal" /> */}
-
-                </div>
 
 
 
-                <div className="bg-transparent  h-screen overflow-hidden flex items-center justify-center pt-36">
+                <div className="bg-transparent  h-full overflow-hidden flex items-center justify-center pt-8">
                     <div className="bg-white w-screen  rounded-t-3xl pt-1 ">
 
                         {/* this is for ads take note */}

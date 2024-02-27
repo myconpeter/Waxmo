@@ -13,35 +13,35 @@ const UpdateAccountDetails = () => {
             <Menu PageName='Upgrade Account' />
 
             <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
-                <div className="flex flex-col items-start justify-center text-lg mb-6">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
                     <p className="text-overLay font-semibold">Account Name</p>
 
-                    <div className="flex border-b-2 border-overLay">
+                    <div className="flex w-screen ">
 
-                        <input type="text" id="accountname" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type="text" id="accountname" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
 
                     </div>
 
                 </div>
-                <div className="flex flex-col items-start justify-center text-lg mb-6">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
                     <p className="text-overLay font-semibold">Account Number</p>
 
-                    <div className="flex border-b-2 border-overLay">
+                    <div className="flex w-screen ">
 
-                        <input type="text" id="accountnumber" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type="text" id="accountnumber" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
 
                     </div>
 
                 </div>
-                <div className="flex flex-col items-start text-lg mb-6 pt-5">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
                     <p className="text-overLay font-semibold">Bank Name</p>
 
-                    <div className="flex border-b-2 border-overLay">
+                    <div className="flex w-screen ">
 
-                        <input type="text" id="bankname" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type="text" id="bankname" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
 
                     </div>
 

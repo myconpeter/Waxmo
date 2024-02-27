@@ -33,7 +33,7 @@ const UpdatePassword = () => {
 
                     <div className="flex border-b-2 border-overLay">
 
-                        <input type={see === true ? "text" : "password"} id="oldpassword" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type={see === true ? "text" : "password"} id="oldpassword" className="bg-lightGray border-overLay py-2 md:py-4  w-full  focus:outline-none" />
                         <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
 
                     </div>
@@ -45,7 +45,7 @@ const UpdatePassword = () => {
 
                     <div className="flex border-b-2 border-overLay">
 
-                        <input type={see === true ? "text" : "password"} id="newpassword" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type={see === true ? "text" : "password"} id="newpassword" className="bg-lightGray border-overLay  py-2 md:py-4  w-full  focus:outline-none" />
                         <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
 
                     </div>
@@ -57,7 +57,7 @@ const UpdatePassword = () => {
 
                     <div className="flex border-b-2 border-overLay">
 
-                        <input type={see === true ? "text" : "password"} id="confirmpassword" className="bg-lightGray border-overLay pl-12 py-2 md:py-4  w-full  focus:outline-none" />
+                        <input type={see === true ? "text" : "password"} id="confirmpassword" className="bg-lightGray border-overLay  py-2 md:py-4  w-full  focus:outline-none" />
                         <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
 
                     </div>

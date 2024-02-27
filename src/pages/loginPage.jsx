@@ -57,7 +57,7 @@ const loginPage = () => {
 
                                 <div className="flex border-b-2 border-overLay">
 
-                                    <input type="text" id="email" className="bg-lightGray border-overLay pl-12 py-2 w-full focus:outline-none  " />
+                                    <input type="text" id="email" className="bg-lightGray border-overLay  py-2 w-full focus:outline-none  " />
                                     {/* <FaCheck className="text-overLay" /> */}
                                 </div>
 
@@ -68,14 +68,14 @@ const loginPage = () => {
 
                                 <div className="flex border-b-2 border-overLay">
 
-                                    <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay pl-12  py-2 focus:outline-none  " />
+                                    <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay   py-2 focus:outline-none  " />
                                     <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
                                 </div>
 
                             </div>
 
                             <div className="pb-8 flex  justify-end">
-                                <Link to="#" className="">Forgotten Password ? </Link>
+                                <Link to="/recoverpassword" className="">Forgotten Password ? </Link>
                             </div>
                             <button className="bg-overLay font-medium p-2 md:p-4 text-white uppercase w-full rounded-full">Login</button>
                         </form>
