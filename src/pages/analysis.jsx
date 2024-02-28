@@ -8,51 +8,36 @@ import { FcLineChart } from "react-icons/fc";
 
 const Analysis = () => {
     return (
-        <div className='bg-white w-full h-screen p-2'>
+        <div className='bg-white w-screen h-screen p-2'>
             <Menu PageName='Daily Analysis' />
 
             <div className='mt-16'>
 
             </div>
 
-            <div className='m-2 flex justify-between outline-2'>
+            <div className='outline-2'>
+                <div className="relative overflow-x-auto">
+                    <table className="w-full text-sm text-left ">
+                        <thead className="text-xs text-black uppercase bg-darkGray">
+                            <tr>
 
-                {daily.map((day) => (
-                    <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center' key={day.id}>
-                        <p>Day</p>
-                        <p className='text-2xl'>{day.dayNumber}</p>
-                    </div>
+                                {daily.map((day) => (
+                                    <th scope="col" className="px-4 py-3 rounded-xl text-center " key={day.id}>
 
-                ))}
+                                        <p>Day</p>
+                                        <p className='text-2xl'>{day.dayNumber}</p>
 
-                {/* <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center'>
-                    <p>Day</p>
-                    <p className='text-2xl'>5</p>
+
+                                    </th>
+
+                                ))}
+
+                            </tr>
+                        </thead>
+
+                    </table>
                 </div>
-                <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center'>
-                    <p>Day</p>
-                    <p className='text-2xl'>6</p>
-                </div>
-                <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center'>
-                    <p>Day</p>
-                    <p className='text-2xl'>7</p>
-                </div>
-                <div className='h-fit w-fit bg-overLay p-2 rounded-3xl flex flex-col items-center'>
-                    <p>Day</p>
-                    <p className='text-2xl'>8</p>
-                </div>
-                <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center'>
-                    <p>Day</p>
-                    <p className='text-2xl'>9</p>
-                </div>
-                <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center'>
-                    <p>Day</p>
-                    <p className='text-2xl'>10</p>
-                </div>
-                <div className='h-fit w-fit bg-darkGray p-2 rounded-3xl flex flex-col items-center'>
-                    <p>Day</p>
-                    <p className='text-2xl'>11</p>
-                </div> */}
+
 
 
             </div>
