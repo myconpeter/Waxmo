@@ -50,7 +50,7 @@ const loginPage = () => {
 
                             <p className="font-bold">Login</p>
                         </div>
-                        <form action="/home/homepage" className="pt-24 p-2 flex flex-col items-center justify-center">
+                        <Link to="/home/homepage" className="pt-24 p-2 flex flex-col items-center justify-center">
                             <div className="flex flex-col items-start justify-center text-lg mb-6">
 
                                 <p className="text-overLay font-semibold">Email</p>
@@ -78,7 +78,7 @@ const loginPage = () => {
                                 <Link to="/recoverpassword" className="">Forgotten Password ? </Link>
                             </div>
                             <button className="bg-overLay font-medium p-2 md:p-4 text-white uppercase w-full rounded-full">Login</button>
-                        </form>
+                        </Link>
 
                         <div className="flex flex-col items-end p-6 space-y-6 ">
 
