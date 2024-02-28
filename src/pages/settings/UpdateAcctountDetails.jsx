@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const UpdateAccountDetails = () => {
     return (
         <div>
-            <Menu PageName='Upgrade Account' />
+            <Menu PageName='Add Account' />
 
             <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
                 <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
