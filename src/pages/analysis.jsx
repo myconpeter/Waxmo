@@ -1,45 +1,48 @@
 import Menu from '../components/menu'
-import { IoIosArrowDroprightCircle } from "react-icons/io";
 
-import { FcLineChart } from "react-icons/fc";
 
 
 
 
 const Analysis = () => {
     return (
-        <div className='bg-white w-screen h-screen p-2'>
+        <div className='bg-white'>
             <Menu PageName='Daily Analysis' />
 
             <div className='mt-16'>
 
             </div>
 
-            <div className='outline-2'>
-                <div className="relative overflow-x-auto">
-                    <table className="w-full text-sm text-left ">
-                        <thead className="text-xs text-black uppercase bg-darkGray">
+            <div className='m-2'>
+                <div className="relative overflow-x-auto w-full">
+                    <table className="w-5/6">
+                        < tbody className="text-sm text-black  bg-darkGray">
                             <tr>
 
                                 {daily.map((day) => (
-                                    <th scope="col" className="px-4 py-3 rounded-xl text-center " key={day.id}>
 
-                                        <p>Day</p>
-                                        <p className='text-2xl'>{day.dayNumber}</p>
+                                    <th scope="col" className="px-4 py-3 rounded-full text-center" key={day.id}>
+
+                                        <div className=''>
+
+                                            <p>Day</p>
+                                            <p className='text-2xl'>{day.dayNumber}</p>
+                                        </div>
+
 
 
                                     </th>
 
+
+
+
                                 ))}
 
                             </tr>
-                        </thead>
+                        </tbody>
 
                     </table>
                 </div>
-
-
-
             </div>
 
             <div className='flex justify-evenly'>

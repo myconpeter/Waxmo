@@ -37,13 +37,13 @@ const dashboard = () => {
             <div>
                 <div>
 
-                    <div className=" ">
+                    <div className="mt-2 ">
 
                         <p className="text-2xl font-semibold text-darkGreen">Hi, Micheal Peter</p>
 
                     </div>
 
-                    <div className="h-32 z-50 w-full bg-darkGreen mt-5  rounded-3xl p-2">
+                    <div className="h-32 z-50 w-full bg-darkGreen mt-5   rounded-3xl p-2">
 
                         <div className="flex items-center justify-center bg-lightGray w-fit px-8 rounded-xl text-black ">
                             <MdVerified className="text-overLay" />
@@ -51,7 +51,7 @@ const dashboard = () => {
                             <p>1% limited patrner</p>
                         </div>
 
-                        <div className="text-white flex justify-between pt-4 text-xl font-bold">
+                        <div className="text-white flex  justify-between pt-4 text-xl font-bold">
                             <p>{see === true ? '****' : Amount}</p>
 
 

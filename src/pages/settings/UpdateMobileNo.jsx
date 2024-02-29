@@ -31,7 +31,7 @@ const UpdateMobileNO = () => {
 
                     <p className="text-overLay font-semibold">Old Mobile Number</p>
 
-                    <div className="flex w-screen ">
+                    <div className="flex">
 
                         <input type="text" id="oldnumber" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
 
@@ -42,7 +42,7 @@ const UpdateMobileNO = () => {
 
                     <p className="text-overLay font-semibold">New Mobile Number</p>
 
-                    <div className="">
+                    <div className="flex">
 
                         <input type="text" id="newnumber" className="bg-lightGray border-overLay py-2  w-full  focus:outline-none" />
 
@@ -53,9 +53,9 @@ const UpdateMobileNO = () => {
 
                     <p className="text-overLay font-semibold">Confirm Password</p>
 
-                    <div className="flex w-screen">
+                    <div className="flex w-full">
 
-                        <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay w-4/6 focus:outline-none  " />
+                        <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay w-5/6 focus:outline-none  " />
                         <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
                     </div>
                 </div>

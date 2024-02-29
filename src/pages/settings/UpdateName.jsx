@@ -31,7 +31,7 @@ const UpdateName = () => {
 
                     <p className="text-overLay font-semibold">First Name</p>
 
-                    <div className="flex  w-screen   ">
+                    <div className="flex">
 
                         <input type="text" id="firstname" className="bg-lightGray  w-5/6  focus:outline-none" />
 
@@ -43,7 +43,7 @@ const UpdateName = () => {
 
                     <p className="text-overLay font-semibold">Last Name</p>
 
-                    <div className="flex  w-screen   ">
+                    <div className="flex">
 
                         <input type="text" id="lastname" className="bg-lightGray  w-5/6  focus:outline-none" />
 
@@ -55,9 +55,9 @@ const UpdateName = () => {
 
                     <p className="text-overLay font-semibold">Password</p>
 
-                    <div className="flex w-screen ">
+                    <div className="flex w-full">
 
-                        <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay w-4/6 focus:outline-none  " />
+                        <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay w-5/6 focus:outline-none  " />
                         <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
                     </div>
 
