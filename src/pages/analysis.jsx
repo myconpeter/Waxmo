@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Menu from '../components/menu'
 
 
@@ -5,6 +6,27 @@ import Menu from '../components/menu'
 
 
 const Analysis = () => {
+
+
+
+
+
+    const [selected, setSelected] = useState(0)
+
+    const toggle = (i) => {
+
+        if (selected === i) {
+            return setSelected(null)
+        }
+        setSelected(i)
+    }
+
+    const sel = selected
+    console.log(sel)
+
+
+
+
     return (
         <div className='bg-white'>
             <Menu PageName='Daily Analysis' />
@@ -16,28 +38,16 @@ const Analysis = () => {
             <div className='m-2'>
                 <div className="relative overflow-x-auto w-full">
                     <table className="w-5/6">
-                        < tbody className="text-sm text-black  bg-darkGray">
+                        < tbody className="text-sm text-black ">
                             <tr>
-
                                 {daily.map((day) => (
-
-                                    <th scope="col" className="px-4 py-3 rounded-full text-center" key={day.id}>
-
-                                        <div className=''>
-
+                                    <th scope="col" className={selected === day ? "px-4 py-3 rounded-full text-center bg-overLay" : "px-4 py-3 rounded-full text-center bg-darkGray"} key={day.id}>
+                                        <div onClick={() => toggle(day)} className=''>
                                             <p>Day</p>
                                             <p className='text-2xl'>{day.dayNumber}</p>
                                         </div>
-
-
-
                                     </th>
-
-
-
-
                                 ))}
-
                             </tr>
                         </tbody>
 
@@ -54,8 +64,8 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>0.00%</p>
-                            <p className='text-3xl text-center pt-4 text-white'>₦300</p>
+                            <p className='text-4xl text-center text-white'>{sel.stockPercent}</p>
+                            <p className='text-3xl text-center pt-4 text-white'>{sel.stockAmount}</p>
                         </div>
                     </div>
                     <div className='h-60 w-36 bg-darkGray rounded-lg'>
@@ -64,8 +74,8 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>0.00%</p>
-                            <p className='text-3xl text-center pt-4 text-white'>₦300</p>
+                            <p className='text-4xl text-center text-white'>{sel.cryptoPercent}</p>
+                            <p className='text-3xl text-center pt-4 text-white'>{sel.cryptoAmount}</p>
                         </div>
                     </div>
 
@@ -79,8 +89,8 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>0.00%</p>
-                            <p className='text-3xl text-center pt-4 text-white'>₦300</p>
+                            <p className='text-4xl text-center text-white'>{sel.forexPercent}</p>
+                            <p className='text-3xl text-center pt-4 text-white'>{sel.forexAmount}</p>
                         </div>
                     </div>
                     <div className='h-72 w-36 bg-darkGray rounded-lg'>
@@ -89,8 +99,8 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>0.00%</p>
-                            <p className='text-3xl text-center pt-4 text-white'>₦300</p>
+                            <p className='text-4xl text-center text-white'>{sel.adsPercent}</p>
+                            <p className='text-3xl text-center pt-4 text-white'>{sel.adsAmount}</p>
                         </div>
                     </div>
 
