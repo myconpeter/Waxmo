@@ -12,6 +12,12 @@ const AdminHome = () => {
                     <h2 className='text-xl font-semibold text-center'>Statistical Data Analysis</h2>
                 </div>
 
+                <Link to='/admin/totalusers' className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
+                    <p>All Registered Users </p>
+                    <p>300</p>
+
+                </Link>
+
                 <section className='mt-4'>
                     <div className='flex justify-evenly text-xl'>
                         <Link to='/admin/totalusers' className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
@@ -49,18 +55,7 @@ const AdminHome = () => {
 
                         </div>
                     </div>
-                    <div className='flex justify-evenly text-xl mt-5'>
-                        <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p> Total Expired </p>
-                            <p>300</p>
 
-                        </div>
-                        <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p>Total Unexpired</p>
-                            <p>100</p>
-
-                        </div>
-                    </div>
                 </section>
 
                 <section className='mt-5 '>
