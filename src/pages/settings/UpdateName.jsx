@@ -31,7 +31,7 @@ const UpdateName = () => {
 
                     <p className="text-overLay font-semibold">First Name</p>
 
-                    <div className="flex">
+                    <div className="flex w-full">
 
                         <input type="text" id="firstname" className="bg-lightGray  w-5/6  focus:outline-none" />
 
@@ -43,7 +43,7 @@ const UpdateName = () => {
 
                     <p className="text-overLay font-semibold">Last Name</p>
 
-                    <div className="flex">
+                    <div className="flex w-full">
 
                         <input type="text" id="lastname" className="bg-lightGray  w-5/6  focus:outline-none" />
 

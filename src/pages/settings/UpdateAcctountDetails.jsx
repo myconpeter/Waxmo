@@ -17,9 +17,9 @@ const UpdateAccountDetails = () => {
 
                     <p className="text-overLay font-semibold">Account Name</p>
 
-                    <div className="flex ">
+                    <div className="flex w-full ">
 
-                        <input type="text" id="accountname" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
+                        <input type="text" id="accountname" className="bg-lightGray border-overLay py-2  w-5/6  focus:outline-none" />
 
                     </div>
 
@@ -28,9 +28,9 @@ const UpdateAccountDetails = () => {
 
                     <p className="text-overLay font-semibold">Account Number</p>
 
-                    <div className="flex">
+                    <div className="flex w-full">
 
-                        <input type="text" id="accountnumber" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
+                        <input type="text" id="accountnumber" className="bg-lightGray border-overLay py-2  w-5/6  focus:outline-none" />
 
                     </div>
 
@@ -39,9 +39,9 @@ const UpdateAccountDetails = () => {
 
                     <p className="text-overLay font-semibold">Bank Name</p>
 
-                    <div className="flex">
+                    <div className="flex w-full">
 
-                        <input type="text" id="bankname" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
+                        <input type="text" id="bankname" className="bg-lightGray border-overLay py-2  w-5/6  focus:outline-none" />
 
                     </div>
 

@@ -31,9 +31,9 @@ const UpdateMobileNO = () => {
 
                     <p className="text-overLay font-semibold">Old Mobile Number</p>
 
-                    <div className="flex">
+                    <div className="flex w-full">
 
-                        <input type="text" id="oldnumber" className="bg-lightGray border-overLay py-2  w-4/6  focus:outline-none" />
+                        <input type="text" id="oldnumber" className="bg-lightGray border-overLay py-2  w-5/6  focus:outline-none" />
 
                     </div>
 
@@ -42,9 +42,9 @@ const UpdateMobileNO = () => {
 
                     <p className="text-overLay font-semibold">New Mobile Number</p>
 
-                    <div className="flex">
+                    <div className="flex w-full">
 
-                        <input type="text" id="newnumber" className="bg-lightGray border-overLay py-2  w-full  focus:outline-none" />
+                        <input type="text" id="newnumber" className="bg-lightGray border-overLay py-2  w-5/6  focus:outline-none" />
 
                     </div>
 

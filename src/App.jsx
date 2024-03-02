@@ -79,10 +79,10 @@ const router = createBrowserRouter(
         <Route path="addDaily" element={<AddDaily />} />
 
 
-        < Route path="*" element={<ErrorPage />} />
 
       </Route>
 
+      < Route path="*" element={<ErrorPage />} />
 
 
 
