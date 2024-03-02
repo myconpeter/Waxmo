@@ -35,6 +35,9 @@ import RecoverPassword from "./pages/RecoverPassword";
 import AdminHome from "./pages/adminPage/AdminHome";
 import Single from "./pages/adminPage/notificatons/Single";
 import Multiple from "./pages/adminPage/notificatons/Mutiple";
+import TotalRegistered from "./pages/adminPage/dataAnalysis/TotalRegistered";
+import PayOut from "./pages/adminPage/PayOut";
+import AddDaily from "./pages/adminPage/AddDaily";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -70,6 +73,10 @@ const router = createBrowserRouter(
         <Route index element={<AdminHome />} />
         <Route path="sendsingle" element={<Single />} />
         <Route path="sendall" element={<Multiple />} />
+        <Route path="totalusers" element={<TotalRegistered />} />
+        <Route path="payout" element={<PayOut />} />
+        <Route path="addDaily" element={<AddDaily />} />
+
 
 
 

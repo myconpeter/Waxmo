@@ -14,11 +14,11 @@ const AdminHome = () => {
 
                 <section className='mt-4'>
                     <div className='flex justify-evenly text-xl'>
-                        <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
+                        <Link to='/admin/totalusers' className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
                             <p>Total Registered </p>
                             <p>300</p>
 
-                        </div>
+                        </Link>
                         <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
                             <p>Total Verified </p>
                             <p>100</p>
@@ -83,7 +83,9 @@ const AdminHome = () => {
                     </div>
                     <div className='flex justify-evenly'>
 
-                        <button className='p-3 bg-darkGreen rounded-lg text-white'>Pay Out ALL</button>
+                        <Link to='/admin/payout' className='p-3 bg-darkGreen rounded-lg text-white'>Pay Out ALL</Link>
+                        <Link to='/admin/addDaily' className='p-3 bg-overLay rounded-lg text-white'>Daily Analysis</Link>
+
 
 
 

@@ -1,13 +1,13 @@
 import React from 'react'
-import Menu from '../../../components/menu'
+import Menu from '../../components/menu'
 
-const TotalRegistered = () => {
+const PayOut = () => {
     return (
         <div>
 
             <div>
+                <Menu PageName='Pay Out' />
 
-                <Menu PageName='All Users' />
             </div>
 
 
@@ -68,8 +68,8 @@ const TotalRegistered = () => {
                                 3.0 lb.
                             </td>
                             <td className="flex items-center px-6 py-4">
-                                <a href="#" class="font-medium text-black bg-overLay p-2 rounded-lg">Edit</a>
-                                <a href="#" class="font-medium text-black bg-danger p-2 rounded-lg mx-3">Remove</a>
+                                <a href="#" class="font-medium text-black bg-overLay p-2 rounded-lg">Paid</a>
+
                             </td>
                         </tr>
                         <tr class="bg-white border-b ">
@@ -96,39 +96,10 @@ const TotalRegistered = () => {
                                 1.0 lb.
                             </td>
                             <td className="flex items-center px-6 py-4">
-                                <a href="#" class="font-medium text-black bg-overLay p-2 rounded-lg">Edit</a>
-                                <a href="#" class="font-medium text-black bg-danger p-2 rounded-lg mx-3">Remove</a>
+
+                                <a href="#" class="font-medium text-black bg-overLay p-2 rounded-lg mx-3">Paid</a>
                             </td>
                         </tr>
-                        <tr className="bg-white border-b">
-
-                            <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap ">
-                                michealpeter@gmail.com
-                            </th>
-                            <td className="px-6 py-4">
-                                Ekanem
-                            </td>
-                            <td className="px-6 py-4">
-                                Accessories
-                            </td>
-                            <td className="px-6 py-4">
-                                Yes
-                            </td>
-                            <td className="px-6 py-4">
-                                No
-                            </td>
-                            <td className="px-6 py-4">
-                                $99
-                            </td>
-                            <td className="px-6 py-4">
-                                0.2 lb.
-                            </td>
-                            <td className="flex items-center px-6 py-4">
-                                <a href="#" class="font-medium text-black bg-overLay p-2 rounded-lg">Edit</a>
-                                <a href="#" class="font-medium text-black bg-danger p-2 rounded-lg mx-3">Remove</a>
-                            </td>
-                        </tr>
-
 
                     </tbody>
                 </table>
@@ -138,4 +109,4 @@ const TotalRegistered = () => {
     )
 }
 
-export default TotalRegistered
+export default PayOut
