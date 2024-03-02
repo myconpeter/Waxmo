@@ -1,8 +1,6 @@
 import { FaUser } from "react-icons/fa6";
-import { FaCheck } from "react-icons/fa";
 import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
-import { FaRegCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import BackGround from "../assets/welcomePage-backgroundImage.jpg"

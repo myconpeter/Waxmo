@@ -24,10 +24,7 @@ const Analysis = () => {
 
     let sel = selected
 
-    useEffect(() => {
 
-
-    }, [0])
 
 
 

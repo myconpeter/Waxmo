@@ -38,6 +38,7 @@ import Multiple from "./pages/adminPage/notificatons/Mutiple";
 import TotalRegistered from "./pages/adminPage/dataAnalysis/TotalRegistered";
 import PayOut from "./pages/adminPage/PayOut";
 import AddDaily from "./pages/adminPage/AddDaily";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -78,7 +79,7 @@ const router = createBrowserRouter(
         <Route path="addDaily" element={<AddDaily />} />
 
 
-
+        < Route path="*" element={<ErrorPage />} />
 
       </Route>
 
