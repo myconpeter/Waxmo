@@ -32,6 +32,9 @@ import UpdatePassword from "./pages/settings/UpdatePassword";
 import UpdateMobileNO from "./pages/settings/UpdateMobileNo";
 import UpdateAccountDetails from "./pages/settings/UpdateAcctountDetails";
 import RecoverPassword from "./pages/RecoverPassword";
+import AdminHome from "./pages/adminPage/AdminHome";
+import Single from "./pages/adminPage/notificatons/Single";
+import Multiple from "./pages/adminPage/notificatons/Mutiple";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -60,6 +63,15 @@ const router = createBrowserRouter(
         <Route path="updatepassword" element={<UpdatePassword />} />
         <Route path="updatemobileno" element={<UpdateMobileNO />} />
         <Route path="updateaccountdetails" element={<UpdateAccountDetails />} />
+
+      </Route>
+
+      <Route path="admin" element={<HomeLayout />}>
+        <Route index element={<AdminHome />} />
+        <Route path="sendsingle" element={<Single />} />
+        <Route path="sendall" element={<Multiple />} />
+
+
 
       </Route>
 

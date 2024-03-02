@@ -92,6 +92,12 @@ const Menu = (props) => {
 
                             </li>
                         ))}
+                        <li className='text-2xl capitalize text-overLay py-4 px-4'>
+
+                            <Link to='/admin' > Admin Panel</Link>
+
+
+                        </li>
                     </ul>
                 </div>
             )}

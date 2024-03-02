@@ -29,6 +29,10 @@ const dashboard = () => {
     }
 
     const Amount = '₦10000';
+
+
+
+
     return (
 
         <div className="bg-white w-full  p-2 mt-12 " >
@@ -105,7 +109,7 @@ const dashboard = () => {
 
                         </Link>
 
-                    </div>
+                    </div>n
                 </div>
 
             </div>
@@ -113,5 +117,7 @@ const dashboard = () => {
         </div >
     )
 }
+
+
 
 export default dashboard

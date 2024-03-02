@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Menu from '../components/menu'
 
 
@@ -11,18 +11,28 @@ const Analysis = () => {
 
 
 
-    const [selected, setSelected] = useState(0)
+    const [selected, setSelected] = useState(active)
+
 
     const toggle = (i) => {
 
         if (selected === i) {
-            return setSelected(null)
+            return setSelected(i)
         }
         setSelected(i)
     }
 
-    const sel = selected
-    console.log(sel)
+    let sel = selected
+
+    useEffect(() => {
+
+
+    }, [0])
+
+
+
+
+
 
 
 
@@ -37,21 +47,21 @@ const Analysis = () => {
 
             <div className='m-2'>
                 <div className="relative overflow-x-auto w-full">
-                    <table className="w-5/6">
-                        < tbody className="text-sm text-black ">
-                            <tr>
+                    <div className="w-5/6 ">
+                        < div className="text-sm text-black ">
+                            <div className='flex flex-row'>
                                 {daily.map((day) => (
-                                    <th scope="col" className={selected === day ? "px-4 py-3 rounded-full text-center bg-overLay" : "px-4 py-3 rounded-full text-center bg-darkGray"} key={day.id}>
+                                    <div scope="col" className={selected === day ? "px-4 py-3 rounded-full text-center bg-overLay mx-1" : "px-4 py-3 rounded-full text-center bg-darkGray  mx-1"} key={day.id}>
                                         <div onClick={() => toggle(day)} className=''>
                                             <p>Day</p>
                                             <p className='text-2xl'>{day.dayNumber}</p>
                                         </div>
-                                    </th>
+                                    </div>
                                 ))}
-                            </tr>
-                        </tbody>
+                            </div>
+                        </div>
 
-                    </table>
+                    </div>
                 </div>
             </div>
 
@@ -209,7 +219,7 @@ const daily = [
     {
         id: 8,
         dayNumber: 8,
-        stockPercent: '0.00%',
+        stockPercent: '0.08%',
         stockAmount: 300,
         forexPercent: '0.00%',
         forexAmount: 300,
@@ -255,5 +265,23 @@ const daily = [
         adsAmount: 100
     }
 ]
+
+const active = [
+    {
+        id: 1,
+        dayNumber: 1,
+        stockPercent: '0.11%',
+        stockAmount: 300,
+        forexPercent: '0.00%',
+        forexAmount: 300,
+        cryptoPercent: '0.00%',
+        cryptoAmount: 300,
+        adsPercent: '0.00%',
+        adsAmount: 100
+    }
+]
+
+
+
 
 export default Analysis
