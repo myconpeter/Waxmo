@@ -1,6 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import BackGround from "../assets/welcomePage-backgroundImage.jpg"
+import BackGround from "../assets/back2.gif"
+
 
 
 const welcomePage = () => {
@@ -10,7 +11,7 @@ const welcomePage = () => {
         <div className="" >
             <div className="relative">
                 <img className="w-screen h-screen" src={BackGround} alt="background" />
-                <div className="bg-overLay absolute inset-0 opacity-75 w-screen h-screen"></div>
+                <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-screen"></div>
 
             </div>
 
