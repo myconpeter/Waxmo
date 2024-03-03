@@ -11,7 +11,7 @@ const welcomePage = () => {
         <div className="" >
             <div className="relative">
                 <img className="w-screen h-screen" src={BackGround} alt="background" />
-                <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-screen"></div>
+                <div className="bg-black absolute inset-0 opacity-75 w-screen h-screen"></div>
 
             </div>
 
