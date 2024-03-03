@@ -37,7 +37,7 @@ const signupPage = () => {
 
 
             <div
-                className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+                className="absolute bottom-0 left-0 right-0 top-0 h-full w-screen overflow-hidden bg-fixed"
             >
 
                 <div className="bg-transparent  h-screen overflow-hidden flex items-center justify-center pt-20">
@@ -120,10 +120,10 @@ const signupPage = () => {
                             <button className="bg-overLay font-medium p-2  text-white uppercase w-full rounded-full">Sign Up</button>
                         </form>
 
-                        <div className="flex flex-col px-4 items-end  space-y-2 ">
+                        <div className="flex flex-col px-4 items-end  space-y-1 ">
 
                             <p>Already have an account ? </p>
-                            <Link to="/login" className="text-3xl font-bold text-overLay">Login</Link>
+                            <Link to="/login" className="text-xl font-bold text-overLay">Login</Link>
 
                         </div>
                     </div>
