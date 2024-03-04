@@ -23,12 +23,8 @@ const signupPage = () => {
     return (
 
 
-        <div
-            className=""
-
-
-        >
-            <div className="relative">
+        <div className="" >
+            <div className="">
                 <img className="" src={BackGround} alt="background" />
                 <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-36"></div>
 
@@ -36,13 +32,11 @@ const signupPage = () => {
 
 
 
-            <div
-                className="absolute bottom-0 left-0 right-0 top-0 h-full w-screen overflow-hidden bg-fixed"
-            >
+            <div className="absolute bottom-0 left-0 right-0 top-0    bg-fixed" >
 
                 <div className="bg-transparent  h-screen overflow-hidden flex items-center justify-center pt-20">
                     <div className="bg-white w-screen h-full shadow-3xl rounded-t-3xl">
-                        <div className="flex flex-col items-center bg-lightGray shadow shadow-gray-200 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full p-4">
+                        <div className="flex flex-col items-center bg-lightGray shadow  absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full p-4">
                             <FaUserPlus className="text-4xl text-overLay " />
 
                             <p className="font-bold">Sign Up</p>
@@ -118,14 +112,16 @@ const signupPage = () => {
 
 
                             <button className="bg-overLay font-medium p-2  text-white uppercase w-full rounded-full">Sign Up</button>
+
+                            <div className="flex flex-col px-4 items-end  space-y-1 ">
+
+                                <p>Already have an account ? </p>
+                                <Link to="/login" className="text-xl font-bold text-overLay">Login</Link>
+
+                            </div>
                         </form>
 
-                        <div className="flex flex-col px-4 items-end  space-y-1 ">
 
-                            <p>Already have an account ? </p>
-                            <Link to="/login" className="text-xl font-bold text-overLay">Login</Link>
-
-                        </div>
                     </div>
                 </div>
 
