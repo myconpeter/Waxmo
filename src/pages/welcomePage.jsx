@@ -27,7 +27,7 @@ const welcomePage = () => {
 
                         <div className='group  items-center px-3 mt-36  bg-darkGray rounded-full flex cursor-pointer w-fit '>
                             <Link to="loginORsignup"
-                                className='group text-blabk items-center p-3 px-3 text-2xl font-bold  rounded-lg flex cursor-pointer w-fit'
+                                className='group text-blabk items-center p-2 px-3 text-3xl font-bold  rounded-lg flex cursor-pointer w-fit'
 
                             >
                                 Get Started

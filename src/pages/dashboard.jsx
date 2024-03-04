@@ -5,11 +5,13 @@ import { IoMdEyeOff } from "react-icons/io";
 import { FaArrowUp } from "react-icons/fa";
 
 import { MdVerified } from "react-icons/md";
-import Investment from "../assets/investment.jpg";
-import Shares from "../assets/shares.avif";
+import Investment from "../assets/buyShare.png";
+import Shares from "../assets/information.png";
 import Ananlysis from "../assets/analysis.jpg"
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { FaUser } from "react-icons/fa6";
+
 
 
 
@@ -35,27 +37,35 @@ const dashboard = () => {
 
     return (
 
-        <div className="bg-white w-full  p-2 mt-12 " >
+        <div className="bg-white w-full  p-2 mt-20 " >
             <Menu PageName='Dashboard' />
 
             <div>
                 <div>
+                    <div className="flex justify-between">
+                        <div className="mt-2 w-fit  ">
 
-                    <div className="mt-2 ">
+                            <p className="text-2xl font-semibold text-darkGreen">Hi, Micheal </p>
 
-                        <p className="text-2xl font-semibold text-darkGreen">Hi, Micheal Peter</p>
+                        </div>
+                        <div className="bg-darkGray p-2 rounded-full">
+                            <FaUser className="text-black text-xl " />
+                        </div>
+
 
                     </div>
 
-                    <div className="h-32 z-50 w-full bg-darkGreen mt-5   rounded-3xl p-2">
 
-                        <div className="flex items-center justify-center bg-lightGray w-fit px-8 rounded-xl text-black ">
+
+                    <div className="h-32 z-50 w-full bg-darkGreen mt-5   rounded-3xl pt-2">
+
+                        <div className="flex items-center justify-center bg-lightGray w-fit px-8 rounded-r-full rounded-l-none text-black ">
                             <MdVerified className="text-overLay" />
 
                             <p>1% limited patrner</p>
                         </div>
 
-                        <div className="text-white flex  justify-between pt-4 text-xl font-bold">
+                        <div className="text-white flex  justify-between mx-2 pt-4 text-xl font-bold">
                             <p>{see === true ? '****' : Amount}</p>
 
 
@@ -84,7 +94,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20 rounded-xl" src={Investment} alt="Investment" />
+                                <img className="w-20 h-16 rounded-xl" src={Investment} alt="Investment" />
                             </div>
 
                         </Link>
@@ -104,7 +114,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20 rounded-xl" src={Shares} alt="Shares" />
+                                <img className="w-20  h-16  rounded-xl my-4 " src={Shares} alt="Shares" />
                             </div>
 
                         </Link>

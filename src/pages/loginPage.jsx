@@ -43,45 +43,48 @@ const loginPage = () => {
 
                 <div className="bg-transparent  h-screen overflow-hidden flex items-center justify-center pt-20">
                     <div className="bg-white w-screen h-full shadow-3xl rounded-t-3xl">
-                        <div className="flex flex-col items-center bg-lightGray shadow shadow-gray-200 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full p-4">
+                        <div className="flex flex-col items-center bg-lightGray shadow shadow-darkGray absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full p-4">
                             <FaUser className="text-4xl text-overLay " />
 
                             <p className="font-bold">Login</p>
                         </div>
-                        <Link to="/home/homepage" className="pt-24 p-2 flex flex-col items-center justify-center">
-                            <div className="flex flex-col items-start justify-center text-lg mb-6">
+                        <Link to="/home/homepage" className="pt-10 p-10 flex flex-col">
+                            <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">Email</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex  w-screen   ">
 
-                                    <input type="text" id="email" className="bg-lightGray border-overLay  py-2 w-full focus:outline-none  " />
-                                    {/* <FaCheck className="text-overLay" /> */}
+                                    <input type="email" id="email" className="bg-lightGray  w-5/6  focus:outline-none" />
+
+
                                 </div>
 
                             </div>
-                            <div className="flex flex-col items-start text-lg mb-6 pt-5">
+                            <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">Password</p>
 
-                                <div className="flex border-b-2 border-overLay">
+                                <div className="flex  w-screen   ">
 
-                                    <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay   py-2 focus:outline-none  " />
+                                    <input type={see === true ? "text" : "password"} id="password" className="bg-lightGray border-overLay   py-2 focus:outline-none w-4/6  " />
                                     <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
+
                                 </div>
 
                             </div>
 
-                            <div className="pb-8 flex  justify-end">
+
+                            <div className="pb-5 flex  justify-end">
                                 <Link to="/recoverpassword" className="">Forgotten Password ? </Link>
                             </div>
-                            <button className="bg-overLay font-medium p-2 md:p-4 text-white uppercase w-full rounded-full">Login</button>
+                            <button className="bg-overLay font-medium p-2 text-white uppercase w-full rounded-full">Login</button>
                         </Link>
 
-                        <div className="flex flex-col items-end p-6 space-y-6 ">
+                        <div className="flex flex-col items-end p-2 space-y-1 ">
 
                             <p>Dont't have an account ? </p>
-                            <Link to="/signup" className="text-3xl font-bold text-overLay">Sign Up</Link>
+                            <Link to="/signup" className="text-xl font-bold text-overLay">Sign Up</Link>
 
                         </div>
                     </div>

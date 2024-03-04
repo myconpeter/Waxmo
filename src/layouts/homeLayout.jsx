@@ -26,35 +26,39 @@ const homeLayout = () => {
                                 <NavLink to="/home/homepage" className={({ isActive }) =>
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <IoHome />
-                                    Home
+                                    <p className="text-black">Home</p>
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
                                 <NavLink to="/home/notifications" className={({ isActive }) =>
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <FaBell />
-                                    Notification
+                                    <p className="text-black">Notification</p>
+
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
                                 <NavLink to="/home/dashboard" className={({ isActive }) =>
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <MdDashboard />
-                                    Dashboard
+
+                                    <p className="text-black">Dashboard</p>
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
                                 <NavLink to="/home/settings" className={({ isActive }) =>
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <IoSettingsSharp />
-                                    Settings
+
+                                    <p className="text-black">Settings</p>
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
                                 <NavLink to="/home/me" className={({ isActive }) =>
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <FaUser />
-                                    Me
+
+                                    <p className="text-black">Me</p>
                                 </NavLink>
                             </div>
 

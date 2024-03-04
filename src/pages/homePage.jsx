@@ -46,54 +46,54 @@ const homePage = () => {
 
                         <section className="relative mt-20 m-6 h-full">
                             <div className="flex space-x-6  ">
-                                <div className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
-                                    <Link to='/home/dashboard' className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
+                                <div className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
+                                    <Link to='/home/dashboard' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
                                         <FaChartLine className="font-extrabold text-5xl text-overLay " />
 
-                                        <p className="text-overLay font-bold text-xl">Dashboard</p>
+                                        <p className="text-black font-bold text-2xl">Dashboard</p>
 
                                     </Link>
                                 </div>
-                                <div className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
-                                    <Link to='/home/infomation' className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
-                                        <IoInformationCircle className="font-extrabold text-5xl text-overLay " />
-                                        <p className="text-overLay font-bold text-xl">Information</p>
+                                <div className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3">
+                                    <Link to='/home/infomation' className="flex flex-col items-center p-2 rounded-3xl w-1/3 ">
+                                        <IoInformationCircle className="font-extrabold text-5xl text-overLay  " />
+                                        <p className="text-black font-bold text-2xl">Information</p>
 
                                     </Link>
                                 </div>
                             </div>
                             <div className="flex space-x-6 mt-6  ">
-                                <Link to='/home/about' className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
+                                <Link to='/home/about' className="flex flex-1 flex-col items-center p-2 rounded-3xl w-1/3 ">
                                     <FaUsers className="font-extrabold text-5xl text-overLay " />
 
-                                    <p className="text-overLay font-bold text-xl">About Us</p>
+                                    <p className="text-black font-bold text-2xl">About Us</p>
                                 </Link>
 
 
 
 
-                                <Link to='/home/contact' className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 " >
+                                <Link to='/home/contact' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 " >
                                     <MdOutlineSupportAgent className="font-extrabold text-5xl text-overLay " />
-                                    <p className="text-overLay font-bold text-xl">Contact Us</p>
+                                    <p className="text-black font-bold text-2xl">Contact Us</p>
                                 </Link>
 
 
                             </div>
                             <div className="flex space-x-6 mt-6  ">
-                                <div className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
-                                    <Link to='/home/settings' className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
-                                        <FaHandshakeSimple className="font-extrabold text-5xl text-overLay " />
 
-                                        <p className="text-overLay font-bold text-xl">Partnership</p>
-                                    </Link>
+                                <Link to='/home/settings' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
+                                    <FaHandshakeSimple className="font-extrabold text-5xl text-overLay " />
 
-                                </div>
+                                    <p className="text-black font-bold text-2xl">Partnership</p>
+                                </Link>
 
 
-                                <Link to='/home/faq' className="flex flex-1 flex-col items-center bg-darkGray p-2 rounded-3xl w-1/3 ">
+
+
+                                <Link to='/home/faq' className="flex flex-1 flex-col items-center p-2 rounded-3xl w-1/3 ">
                                     <IoIosChatbubbles className="font-extrabold text-5xl text-overLay " />
 
-                                    <p className="text-overLay font-bold text-xl">F A Q</p>
+                                    <p className="text-black font-bold text-xl">FAQ</p>
                                 </Link>
 
 

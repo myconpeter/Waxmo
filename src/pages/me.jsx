@@ -12,7 +12,7 @@ const me = () => {
 
 
             <div className='mt-8'>
-                <Link to='/home/settings' className=' flex items-center justify-between h-16 w-full bg-darkGray rounded-xl  p-3 '>
+                <Link to='/home/settings' className=' flex items-center justify-between h-16 w-full bg-lightBlack rounded-xl  p-3 '>
                     <p className='text-overLay font-semibold text-xl '>Account Setting</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />

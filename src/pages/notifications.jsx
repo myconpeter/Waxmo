@@ -18,7 +18,7 @@ const notifications = () => {
                         <span className="text-sm font-semibold text-overLay ">DEPOSIT SUCCESSFUL</span>
                     </div>
                     <p className="text-sm font-normal py-2.5 text-overLay ">Your Investment has been made successful and you are now a WaxMo Investor</p>
-                    <span className="text-sm font-normal text-overLay ">Today </span>
+                    <span className="text-sm font-normal text-black ">Today </span>
                 </div>
 
 
@@ -29,7 +29,7 @@ const notifications = () => {
                         <span className="text-sm font-semibold text-overLay ">DIVIDEND PAYMENT</span>
                     </div>
                     <p className="text-sm font-normal py-2.5 text-overLay ">Your Investment has been made successful and you are now a WaxMo Investor</p>
-                    <span className="text-sm font-normal text-overLay ">Yesterday </span>
+                    <span className="text-sm font-normal text-black ">Yesterday </span>
                 </div>
 
 
