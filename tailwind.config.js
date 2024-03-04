@@ -15,7 +15,7 @@ export default {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'overLay': '#008202',
+      'overLay': '#044a0e',
       'darkGreen': '#28783d',
       'lightGray': '#fafaf7',
       'darkGray': '#adaca6',
