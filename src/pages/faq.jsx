@@ -20,10 +20,10 @@ const faq = () => {
 
     return (
         <div className='mt-2 p-2 '>
-            <Menu PageName='F A Q' />
+            <Menu PageName='FAQ' />
             <div className="mt-16 mb-5 ">
-                <p className="text-center font-semibold text-xl">
-                    Here are our Frequently Asked Questions
+                <p className="text-center  text-xl">
+                    Here are some Frequently Asked Questions
                 </p>
             </div>
 

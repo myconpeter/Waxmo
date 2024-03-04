@@ -36,7 +36,7 @@ const Menu = (props) => {
         },
         {
             id: 5,
-            link: "F A Q",
+            link: "FAQ",
             ref: "/home/faq"
         },
 

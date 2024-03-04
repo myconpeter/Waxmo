@@ -113,7 +113,7 @@ const signupPage = () => {
 
                             <button className="bg-overLay font-medium p-2  text-white uppercase w-full rounded-full">Sign Up</button>
 
-                            <div className="flex flex-col px-4 items-end  space-y-1 ">
+                            <div className="flex flex-col px-4 mt-4  items-end  space-y-1 ">
 
                                 <p>Already have an account ? </p>
                                 <Link to="/login" className="text-xl font-bold text-overLay">Login</Link>
