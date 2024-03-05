@@ -17,7 +17,7 @@ const information = () => {
                         Investment is traditionally defined as the commitment of resources to achieve later benefits. If an investment involves money, then it simply mean commitment of finance to receive more money later
                     </p>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 mt-4'>
                     <p className='font-bold text-center '>
                         Shares: Overview
                     </p>
@@ -25,15 +25,15 @@ const information = () => {
                     <p>
                         A share is a unit of ownership, in which investor in return receives dividend.                    </p>
                 </div>
-                <div className='space-y-4'>
-                    <p className='font-bold text-center '>
+                <div className='space-y-4 mt-4'>
+                    <p className='font-bold text-center mt-4 '>
                         Limited partner: Overview
                     </p>
 
                     <p>
                         A limited partner is a partner in a company who do not partake in the day-to-day activities of the business but yet get paid it dividend as a return of investment.                    </p>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 mt-4'>
                     <p className='font-bold text-center '>
                         Dividend: Overview
                     </p>
@@ -41,7 +41,7 @@ const information = () => {
                     <p>
                         Dividend is a distribution of profits by a company to it’s investors.                    </p>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 mt-4'>
                     <p className='font-bold text-center '>
                         WaxMo: Overview
                     </p>
@@ -49,7 +49,7 @@ const information = () => {
                     <p>
                         WaxMo is a financial technology Investment company set up to serve as a channel of investment to investor and as source of income. On WaxMo, buying a share of 1% amounting #10,000 makes you WaxMo investor(limited partner), and you are entitled to receive dividend on a monthly basis without performing or partaking in the day-to-day activities of the firm. WaxMo is discover in September 16th, 2023                    </p>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 mt-4'>
                     <p className='font-bold text-center '>
                         Dividend payment date
                     </p>

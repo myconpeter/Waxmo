@@ -21,9 +21,11 @@ export default {
       'darkGray': '#adaca6',
       'danger': '#c91006',
       'lightBlack': '#272928',
+      'iconColor': "#0ec92d",
 
       'white': "#FFFFFF",
       'black': "#000000"
+
 
     }
   },

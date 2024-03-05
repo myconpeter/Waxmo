@@ -12,21 +12,70 @@ const About = () => {
             <div className="mt-20 px-3">
                 <div className="space-y-4">
                     {/* <p className="text-center font-semibold text-3xl text-darkGreen underline">About Us</p> */}
-                    <p className="text-overLay text-center"> WaxMo is a finiancial tecnnology company that provides a platfrom for investing and utilizing every penny</p>
+                    <p className="text-overLay text-center">WaxMo is an Investment company that serves as a channel of investment and risk management, WaxMo is a firm that issues shares to investors, and diversify the stock in different portfolios, i.e investing in Local Stock Exchange market, Foreign stock exchange market, Trading of commodities, Forex trading, Cryptomarket.
+                        WaxMo is managed by professionals team who they possess the four basic managerial skills i.e Planning, Organizing, Leading, and Controlling. They have high knowledge in finance and risk management, and as such are competence to manage and make informed decision on the firm financial and non-financial activities.
+                    </p>
                 </div>
                 <div className="space-y-4 mt-5">
-                    <p className="text-center font-semibold text-3xl text-darkGreen underline">What defines us</p>
-                    <ul className="text-overLay">
-                        <li> - Simplicity </li>
-                        <li>  - Transparency </li>
-                        <li>  - Effective</li>
-                        <li>  - Accountability </li>
-                        <li>  - Team Management </li>
-                        <li>  - Growth and Development </li>
-                        <li>  - Investors Satisfaction </li>
+                    <p className="text-center font-semibold text-xl text-darkGreen underline">What distinguish WaxMo from other Investment company;</p>
+                    <ul className="text-overLay space-y-4">
+                        <li> 1.	The interest Rate: WaxMo return of investment appears to be high and therefore mark out WaxMo as the number one(1) channel of investment of high rate of returns.</li>
+                        <li> 2.	Transparency and Accountability: WaxMo transparency in giving out the analysis of allocation of finance and accountability distinguish WaxMo from other investment company.</li>
+                        <li> 3.	Professional Management: WaxMo being managed by professional teams who have extensive knowledge in finance and risk management and managers who possess managerial skills distinguish WaxMo from other platform</li>
+                        <li> 4.	Diversified Portfolios: WaxMo diversifying investment gives WaxMo upper hand over other investment firm.</li>
+                        <li> 5.	Team work: Partnering with other financial and production company standardize WaxMo from other platform</li>
+
                     </ul>
                 </div>
             </div>
+
+            <div className="mt-12 px-3">
+
+                <div className="space-y-4 mt-5">
+                    <p className="text-center font-semibold text-xl text-darkGreen underline">Our Objectives.</p>
+                    <ul className="text-overLay space-y-4">
+                        <li> i)	To solve the problem of inflation by increasing the financial value of money.</li>
+                        <li> ii) To serve as a channel of investment and risk management.</li>
+                        <li> iii) To  improve team work.</li>
+                        <li>iv)	To increase investing mindset in people.</li>
+                        <li> v)	To ameliorate idleness of finance.</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div className="mt-12 px-3">
+
+                <div className="space-y-4 mt-5">
+                    <p className="text-center font-semibold text-xl text-darkGreen underline">Our Mission:</p>
+                    <p className="text-overLay text-center">  We are passionate about increasing financial value, building bright future for young people with investment mindsets. Our mission is to create a channel of investment that enable young investors increase their little finance overtime, while they go on with their daily activities. </p>
+                </div>
+            </div>
+
+            <div className="mt-12 px-3">
+
+                <div className="space-y-2 mt-5">
+                    <p className="text-center font-semibold text-xl text-darkGreen underline">Our Values:</p>
+                    <ul className="text-overLay space-y-2">
+                        <li> 1. Transparency</li>
+                        <li> 2. Accountability</li>
+                        <li> 3. Teamwork</li>
+                        <li> 4. Professional management</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div className="mt-12 px-3">
+
+                <div className="space-y-2 mt-5">
+                    <p className="text-center font-semibold text-xl text-darkGreen underline">Our Goals.</p>
+                    <ul className="text-overLay space-y-2">
+                        <li> 1. To augment young investors.</li>
+                        <li> 2. To foster passive income</li>
+                        <li> 3. To serve as a means of income to it’s investors and managers.</li>
+                    </ul>
+                </div>
+            </div>
+
 
             <div className="mt-12">
                 <p className="text-center">
