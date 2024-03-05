@@ -14,72 +14,51 @@ const information = () => {
                     </p>
 
                     <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
+                        Investment is traditionally defined as the commitment of resources to achieve later benefits. If an investment involves money, then it simply mean commitment of finance to receive more money later
                     </p>
                 </div>
                 <div className='space-y-4'>
                     <p className='font-bold text-center '>
-                        Investment Overview
+                        Shares: Overview
                     </p>
 
                     <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
-                    </p>
+                        A share is a unit of ownership, in which investor in return receives dividend.                    </p>
                 </div>
                 <div className='space-y-4'>
                     <p className='font-bold text-center '>
-                        Investment Overview
+                        Limited partner: Overview
                     </p>
 
                     <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
-                    </p>
+                        A limited partner is a partner in a company who do not partake in the day-to-day activities of the business but yet get paid it dividend as a return of investment.                    </p>
                 </div>
                 <div className='space-y-4'>
                     <p className='font-bold text-center '>
-                        Investment Overview
+                        Dividend: Overview
                     </p>
 
                     <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
-                    </p>
+                        Dividend is a distribution of profits by a company to it’s investors.                    </p>
                 </div>
                 <div className='space-y-4'>
                     <p className='font-bold text-center '>
-                        Investment Overview
+                        WaxMo: Overview
                     </p>
 
                     <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
-                    </p>
+                        WaxMo is a financial technology Investment company set up to serve as a channel of investment to investor and as source of income. On WaxMo, buying a share of 1% amounting #10,000 makes you WaxMo investor(limited partner), and you are entitled to receive dividend on a monthly basis without performing or partaking in the day-to-day activities of the firm. WaxMo is discover in September 16th, 2023                    </p>
                 </div>
                 <div className='space-y-4'>
                     <p className='font-bold text-center '>
-                        Investment Overview
+                        Dividend payment date
                     </p>
 
                     <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
-                    </p>
+                        Dividend payment date is fixed at every 10th of the month.                    </p>
                 </div>
-                <div className='space-y-4'>
-                    <p className='font-bold text-center '>
-                        Investment Overview
-                    </p>
 
-                    <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
-                    </p>
-                </div>
-                <div className='space-y-4'>
-                    <p className='font-bold text-center '>
-                        Investment Overview
-                    </p>
 
-                    <p>
-                        ntore, odit quaerat, quisquam iste ut, soluta praeseum libero? quisquam iste ut, soluta praeseum libero?
-                    </p>
-                </div>
 
             </div>
 

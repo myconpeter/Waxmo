@@ -50,14 +50,14 @@ const homePage = () => {
                                     <Link to='/home/dashboard' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
                                         <FaChartLine className="font-extrabold text-5xl text-overLay " />
 
-                                        <p className="text-black font-semibold text-2xl">Dashboard</p>
+                                        <p className="text-black font-semibold text-xl">Dashboard</p>
 
                                     </Link>
                                 </div>
                                 <div className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3">
                                     <Link to='/home/infomation' className="flex flex-col items-center p-2 rounded-3xl w-1/3 ">
                                         <IoInformationCircle className="font-extrabold text-5xl text-overLay  " />
-                                        <p className="text-black font-semibold text-2xl">Information</p>
+                                        <p className="text-black font-semibold text-xl">Information</p>
 
                                     </Link>
                                 </div>
@@ -66,7 +66,7 @@ const homePage = () => {
                                 <Link to='/home/about' className="flex flex-1 flex-col items-center p-2 rounded-3xl w-1/3 ">
                                     <FaUsers className="font-extrabold text-5xl text-overLay " />
 
-                                    <p className="text-black font-semibold text-2xl">About Us</p>
+                                    <p className="text-black font-semibold text-xl">About Us</p>
                                 </Link>
 
 
@@ -74,7 +74,7 @@ const homePage = () => {
 
                                 <Link to='/home/contact' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 " >
                                     <MdOutlineSupportAgent className="font-extrabold text-5xl text-overLay " />
-                                    <p className="text-black font-semibold text-2xl">Contact Us</p>
+                                    <p className="text-black font-semibold text-xl">Contact Us</p>
                                 </Link>
 
 
@@ -84,7 +84,7 @@ const homePage = () => {
                                 <Link to='/home/settings' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
                                     <FaHandshakeSimple className="font-extrabold text-5xl text-overLay " />
 
-                                    <p className="text-black font-semibold text-2xl">Partnership</p>
+                                    <p className="text-black font-semibold text-xl">Partnership</p>
                                 </Link>
 
 

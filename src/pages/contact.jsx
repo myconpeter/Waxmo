@@ -19,7 +19,7 @@ const Contact = () => {
 
                 <div className="mt-10">
                     <div className="flex space-x-3 px-3">
-                        <IoMdMail className="bg-white text-overLay text-2xl" />
+                        <IoMdMail className="bg-white text-overLay text-3xl" />
                         <div className="bg-darkGray w-screen rounded-3xl pb-10 p-3 ">
                             <p className="text-lg font-semibold">
                                 Contactwaxmo@gmail.com
@@ -31,7 +31,7 @@ const Contact = () => {
                 </div>
                 <div className="mt-10">
                     <div className="flex space-x-3 px-3">
-                        <FaFacebookSquare className="bg-white text-overLay text-2xl" />
+                        <FaFacebookSquare className="bg-white text-overLay text-3xl" />
                         <div className="bg-darkGray  w-screen  rounded-3xl pb-10 p-3 ">
                             <p className="text-lg font-semibold">
                                 WaxMo
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div className="mt-10">
                     <div className="flex space-x-3 px-3">
-                        <IoLogoWhatsapp className="bg-white text-overLay text-2xl" />
+                        <IoLogoWhatsapp className="bg-white text-overLay text-3xl" />
                         <div className="bg-darkGray w-screen rounded-3xl pb-10 p-3 ">
                             <p className="text-lg font-semibold">
                                 +23412345678
