@@ -16,9 +16,16 @@ const loginPage = () => {
         }
         else {
             setSee(false)
-
         }
     }
+
+    const onSubmit = (e) => {
+        e.preventDefault()
+        console.log('lol')
+
+    }
+
+    // 
 
     return (
 
@@ -48,7 +55,7 @@ const loginPage = () => {
 
                             <p className="font-bold">Login</p>
                         </div>
-                        <Link to="/home/homepage" className="pt-10 p-10 flex flex-col">
+                        <form onSubmit={onSubmit} className="pt-10 p-10 flex flex-col">
                             <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">Email</p>
@@ -78,15 +85,18 @@ const loginPage = () => {
                             <div className="pb-5 flex  justify-end">
                                 <Link to="/recoverpassword" className="">Forgotten Password ? </Link>
                             </div>
-                            <button className="bg-overLay font-medium p-2 text-white uppercase w-full rounded-full">Login</button>
-                        </Link>
+                            <Link to='/home/homepage' className="bg-overLay font-medium p-2 text-white text-center uppercase w-full rounded-full">Login</Link>
 
-                        <div className="flex flex-col items-end p-2 space-y-1 ">
+                            {/* the sign up function */}
+                            <div className="flex flex-col items-end pt-2 mt-5 space-y-1 ">
 
-                            <p>Dont't have an account ? </p>
-                            <Link to="/signup" className="text-xl font-bold text-overLay">Sign Up</Link>
+                                <p>Dont't have an account ? </p>
+                                <Link to="/signup" className="text-xl font-bold text-overLay">Sign Up</Link>
 
-                        </div>
+                            </div>
+                        </form>
+
+
                     </div>
                 </div>
 

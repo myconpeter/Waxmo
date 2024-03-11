@@ -39,6 +39,7 @@ import TotalRegistered from "./pages/adminPage/dataAnalysis/TotalRegistered";
 import PayOut from "./pages/adminPage/PayOut";
 import AddDaily from "./pages/adminPage/AddDaily";
 import ErrorPage from "./pages/ErrorPage";
+import TermsAndCondition from "./pages/TermsAndCondition";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -48,6 +49,9 @@ const router = createBrowserRouter(
       <Route path="login" element={<LoginPage />} />
       <Route path="signup" element={<SignupPage />} />
       <Route path="recoverpassword" element={<RecoverPassword />} />
+      <Route path="termandcondition" element={<TermsAndCondition />} />
+
+
 
 
       <Route path="home" element={<HomeLayout />}>

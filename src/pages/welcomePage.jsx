@@ -1,6 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import BackGround from "../assets/back2.gif"
+import BackGround from "../assets/welcomePage-backgroundImage.jpg"
 import logo from "../assets/logo.svg"
 
 
@@ -25,9 +25,9 @@ const welcomePage = () => {
                         <img className='rounded-full h-40 w-40 items-center pb-9' src={logo} alt="micheal" />
 
 
-                        <div className='group  items-center px-3 mt-36  bg-darkGray rounded-full flex cursor-pointer w-fit '>
+                        <div className='group items-center px-4 mt-36  bg-white rounded-full flex cursor-pointer w-fit '>
                             <Link to="loginORsignup"
-                                className='group text-blabk items-center p-2 px-3 text-3xl font-bold  rounded-lg flex cursor-pointer w-fit'
+                                className='group text-black items-center p-2 px-3 text-3xl font-bold  rounded-lg flex cursor-pointer w-fit'
 
                             >
                                 Get Started

@@ -41,7 +41,7 @@ const signupPage = () => {
 
                             <p className="font-bold">Sign Up</p>
                         </div>
-                        <form action="/home/homepage" className="pt-10 p-10 flex flex-col">
+                        <form action="/home/homepage" className="pt-5 p-10 flex flex-col">
                             <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
                                 <p className="text-overLay font-semibold">First Name</p>
@@ -108,6 +108,12 @@ const signupPage = () => {
                                     <button onClick={toggle}>{see === true ? <IoMdEye className="text-overLay" /> : <IoMdEyeOff className="text-overLay" />}</button>
                                 </div>
 
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="checkbox" id="" />
+
+                                <Link to='/termandcondition' aria-required className="mx-2 ">Terms and Conditions</Link>
                             </div>
 
 

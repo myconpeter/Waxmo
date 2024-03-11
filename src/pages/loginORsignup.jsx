@@ -33,13 +33,13 @@ const loginORsignup = () => {
 
 
                             <div className="flex flex-col justify-center m-auto items-center">
-                                <h4 className=" mt-4 text-4xl   text-white">You're Welcome!</h4>
+                                <h4 className=" mt-4 text-4xl font-semibold   text-white">You're Welcome!</h4>
 
 
                             </div>
                             <div className="w-screen flex flex-col items-center">
 
-                                <div className=' border-2 border-white mb-2  items-center bg-transparent rounded-full flex flex-col  w-5/6 '>
+                                <div className=' border-2 border-white mb-2  items-center justify-center bg-transparent rounded-full flex flex-col  w-4/6 h-11 '>
                                     <Link
                                         to="/login"
                                         className=' items-center p-3  text-white   text-2xl font-semibold rounded-lg flex '
@@ -47,7 +47,7 @@ const loginORsignup = () => {
                                         LOG IN
                                     </Link>
                                 </div>
-                                <div className=' border-2 border-white   items-center  bg-white rounded-full flex flex-col w-5/6 '>
+                                <div className=' border-2 border-white   items-center justify-center  bg-white rounded-full flex flex-col  h-11  w-4/6 '>
                                     <Link
                                         to="/signup"
                                         className=' text-blabk items-center p-3  text-black   text-2xl font-bold rounded-lg flex w-fit'
