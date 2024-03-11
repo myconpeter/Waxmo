@@ -43,14 +43,14 @@ const settings = () => {
 
 
     return (
-        <div className='bg-white w-full h-screen p-2 pt-20'>
+        <div className='bg-white w-full h-screen p-2 pt-12'>
             <Menu PageName='Settings' />
 
             <div className=''>
                 <Link to='/home/updatename' >
 
-                    <div className=' flex items-center justify-between h-12 w-full bg-darkGray rounded-xl p-3 '>
-                        <p className='text-overLay font-semibold text-xl '>Update Name</p>
+                    <div className=' flex items-center justify-between h-8 w-full bg-darkGray rounded-md p-3 '>
+                        <p className='text-overLay font-semibold text-sm'>Update Name</p>
 
                         <IoIosArrowDroprightCircle className='text-overLay' />
 
@@ -61,20 +61,20 @@ const settings = () => {
                 {/* <div className='h-36 mt-2  bg-darkGray rounded-3xl'>
 
                 </div> */}
-                <Link to='/home/updatepassword' className=' flex items-center justify-between  h-12 w-full bg-darkGray mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Update Password</p>
+                <Link to='/home/updatepassword' className=' flex items-center justify-between  h-8 w-full bg-darkGray mt-2 rounded-md p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Update Password</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
                 </Link>
-                <Link to='/home/updatemobileno' className=' flex items-center justify-between  h-12 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Update Moblile Number</p>
+                <Link to='/home/updatemobileno' className=' flex items-center justify-between  h-8 w-full bg-darkGray  mt-2 rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Update Moblile Number</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
                 </Link>
-                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between  h-12 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Update Account Details</p>
+                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between  h-8 w-full bg-darkGray  mt-2 rounded-md p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Update Account Details</p>
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 

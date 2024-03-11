@@ -33,7 +33,7 @@ const loginORsignup = () => {
 
 
                             <div className="flex flex-col justify-center m-auto items-center">
-                                <h4 className=" mt-4 text-4xl font-semibold   text-white">You're Welcome!</h4>
+                                <h4 className=" mt-4 text-4xl font-semibold font-Roboto text-white">You're Welcome!</h4>
 
 
                             </div>

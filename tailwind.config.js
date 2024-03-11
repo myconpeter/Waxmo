@@ -9,7 +9,9 @@ export default {
     extend: {},
 
     fontFamily: {
-      signature: ['Great Vibes']
+      signature: ['Great Vibes'],
+      Roboto: ['Roboto Condensed']
+
 
     },
     colors: {

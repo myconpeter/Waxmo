@@ -7,68 +7,68 @@ import { Link } from 'react-router-dom';
 
 const me = () => {
     return (
-        <div className='mt-8 p-2 '>
+        <div className='mt-3 p-2 '>
             <Menu PageName='Micheal Peter' />
 
 
             <div className='mt-8'>
-                <Link to='/home/settings' className=' flex items-center justify-between h-16 w-full bg-darkGray rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Account Setting</p>
+                <Link to='/home/settings' className=' flex items-center justify-between h-8 w-full bg-darkGray rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Account Setting</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
                 </Link>
-                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between h-16 w-full bg-darkGray mt-4 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Add Bank Details</p>
+                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between h-8 w-full bg-darkGray mt-4 rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Add Bank Details</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
                 </Link>
-                <div className='mt-6'>
+                <div className='mt-2'>
                     <p className='text-black text-xl'>Links</p>
                 </div>
 
-                <Link to='/home/faq' className=' flex items-center justify-between h-16 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Frequently Asked Questions</p>
+                <Link to='/home/faq' className=' flex items-center justify-between h-8 w-full bg-darkGray  mt-1 rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Frequently Asked Questions</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
                 </Link>
-                <Link to='/home/infomation' className=' flex items-center justify-between h-16 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Information</p>
-
-                    <IoIosArrowDroprightCircle className='text-overLay' />
-
-
-                </Link>
-
-                <Link to='/home/contact' className=' flex items-center justify-between h-16 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Contact Us</p>
-
-                    <IoIosArrowDroprightCircle className='text-overLay' />
-
-
-                </Link>
-                <Link to='/home/analysis' className=' flex items-center justify-between h-16 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>Analysis</p>
-
-                    <IoIosArrowDroprightCircle className='text-overLay' />
-
-
-                </Link>
-                <Link to='/home/about' className=' flex items-center justify-between h-16 w-full bg-darkGray  mt-2 rounded-xl  p-3 '>
-                    <p className='text-overLay font-semibold text-xl '>About Us</p>
+                <Link to='/home/infomation' className=' flex items-center justify-between h-8 w-full bg-darkGray  mt-1 rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Information</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
                 </Link>
 
-                <Link to='/' className=' flex items-center justify-between h-16 w-full bg-danger  mt-8 mb-32 rounded-xl  p-3 '>
-                    <p className='text-black font-semibold text-xl '>Logout</p>
+                <Link to='/home/contact' className=' flex items-center justify-between h-8 w-full bg-darkGray  mt-1 rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Contact Us</p>
+
+                    <IoIosArrowDroprightCircle className='text-overLay' />
+
+
+                </Link>
+                <Link to='/home/analysis' className=' flex items-center justify-between h-8 w-full bg-darkGray  mt-1 rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>Analysis</p>
+
+                    <IoIosArrowDroprightCircle className='text-overLay' />
+
+
+                </Link>
+                <Link to='/home/about' className=' flex items-center justify-between h-8 w-full bg-darkGray  mt-1 rounded-md  p-3 '>
+                    <p className='text-overLay font-semibold text-sm '>About Us</p>
+
+                    <IoIosArrowDroprightCircle className='text-overLay' />
+
+
+                </Link>
+
+                <Link to='/' className=' flex items-center justify-between h-8 w-full bg-danger  mt-4 mb-16 rounded-md p-3 '>
+                    <p className='text-black font-semibold text-sm'>Logout</p>
 
                     <IoLogOut className='text-black' />
 

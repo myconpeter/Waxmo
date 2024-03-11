@@ -58,22 +58,22 @@ const Menu = (props) => {
 
 
     return (
-        <div className='fixed z-50 w-fit h-16 max-w-screen -translate-x-1/2  top-0 left-1/2 bg-lightGray'>
+        <div className='fixed z-50 w-fit h-8 max-w-screen -translate-x-1/2  top-0 left-1/2 bg-lightGray'>
 
 
             <div className='flex items-center justify-between  p-2  h-fit w-screen'>
 
                 <div className=''>
-                    <button onClick={() => history(-1)} className=' text-overLay bg-white   mr-4  text-3xl   '>{<MdArrowBackIosNew />}
+                    <button onClick={() => history(-1)} className=' text-overLay bg-white   mr-4  text-xl   '>{<MdArrowBackIosNew />}
                     </button>
                 </div>
 
                 <div className="">
-                    <p className="text-3xl font-bold text-center text-overLay">{props.PageName}</p>
+                    <p className="text-xl font-bold text-center text-overLay">{props.PageName}</p>
 
                 </div>
                 <div className=''>
-                    <button onClick={() => setNav(!nav)} className=' text-overLay text-3xl  bg-white z-10 relative mr-4'>{nav ? <FaTimes /> : <GiHamburgerMenu />}</button>
+                    <button onClick={() => setNav(!nav)} className=' text-overLay text-xl  bg-white z-10 relative mr-4'>{nav ? <FaTimes /> : <GiHamburgerMenu />}</button>
                 </div>
 
             </div>

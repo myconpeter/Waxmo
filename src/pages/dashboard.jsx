@@ -37,44 +37,40 @@ const dashboard = () => {
 
     return (
 
-        <div className="bg-white w-full  p-2 mt-20 " >
+        <div className="bg-white w-full  p-2 mt-7 " >
             <Menu PageName='Dashboard' />
 
             <div>
                 <div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between items-center">
                         <div className="mt-2 w-fit  ">
 
-                            <p className="text-2xl font-semibold text-darkGreen">Hi, Micheal </p>
+                            <p className="text-md font-semibold text-darkGreen">Hi, Micheal </p>
 
                         </div>
-                        <div className="bg-darkGray p-2 rounded-full">
-                            <FaUser className="text-black text-xl " />
+                        <div className="bg-darkGray px-0.5 h-full  mr-4 rounded-lg ">
+                            <FaUser className="text-black text-sm  items-center justify-center" />
                         </div>
-
-
                     </div>
 
-
-
-                    <div className="h-32 z-50 w-full bg-darkGreen mt-5   rounded-3xl pt-2">
+                    <div className="h-20 z-50 w-full bg-darkGreen mt-2   rounded-3xl pt-2">
 
                         <div className="flex items-center justify-center bg-lightGray w-fit px-8 rounded-r-full rounded-l-none text-black ">
                             <MdVerified className="text-overLay" />
 
-                            <p>1% limited patrner</p>
+                            <p className="text-sm">1% limited patrner</p>
                         </div>
 
-                        <div className="text-white flex  justify-between mx-2 pt-4 text-xl font-bold">
-                            <p>{see === true ? '****' : Amount}</p>
+                        <div className="text-white flex  justify-between mx-2 pt-2 text-xl font-bold">
+                            <p className="text-sm">{see === true ? '****' : Amount}</p>
 
 
-                            <button onClick={toggle}>{see === true ? <IoMdEye className="text-white" /> : <IoMdEyeOff className="text-white" />}</button>
+                            <button onClick={toggle}>{see === true ? <IoMdEye className="text-white text-sm" /> : <IoMdEyeOff className="text-white text-sm" />}</button>
 
 
                             <div className="flex justify-between">
-                                <FaArrowUp />
-                                <p>0.20%</p>
+                                <FaArrowUp className="text-white text-sm" />
+                                <p className="text-white text-sm">0.20%</p>
                             </div>
 
 
@@ -83,38 +79,38 @@ const dashboard = () => {
                     </div>
                     <div>
 
-                        <div className=" mt-5 mx-4 ">
+                        <div className=" mt-2 mx-4 ">
                             <p>Actions</p>
                         </div>
 
 
-                        <Link to='/home/buyshare' className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
+                        <Link to='/home/buyshare' className="flex items-center justify-between px-3 w-full h-12 bg-darkGreen mt-1 text-white rounded-xl">
                             <div>
-                                <p className="text-2xl font-bold">Buy a share</p>
+                                <p className="text-md font-bold">Buy a share</p>
                             </div>
 
                             <div>
-                                <img className="w-20 h-16 rounded-xl" src={Investment} alt="Investment" />
-                            </div>
-
-                        </Link>
-                        <Link to='/home/analysis' className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
-                            <div>
-                                <p className="text-2xl font-bold">Check Analysis</p>
-                            </div>
-
-                            <div>
-                                <img className="w-20 rounded-xl" src={Ananlysis} alt="Ananlysis" />
+                                <img className="w-20 h-10 rounded-xl" src={Investment} alt="Investment" />
                             </div>
 
                         </Link>
-                        <Link to='/home/shareinfo' className="flex items-center justify-between px-3 w-full h-20 bg-darkGreen mt-4 text-white rounded-3xl">
+                        <Link to='/home/analysis' className="flex items-center justify-between px-3 w-full h-12 bg-darkGreen mt-1 text-white rounded-xl">
                             <div>
-                                <p className="text-2xl font-bold">Shares Information</p>
+                                <p className="text-md font-bold">Check Analysis</p>
                             </div>
 
                             <div>
-                                <img className="w-20  h-16  rounded-xl my-4 " src={Shares} alt="Shares" />
+                                <img className="w-20 h-9 rounded-xl" src={Ananlysis} alt="Ananlysis" />
+                            </div>
+
+                        </Link>
+                        <Link to='/home/shareinfo' className="flex items-center justify-between px-3 w-full h-12 bg-darkGreen mt-1 text-white rounded-xl">
+                            <div>
+                                <p className="text-md font-bold">Shares Information</p>
+                            </div>
+
+                            <div>
+                                <img className="w-20  h-10  rounded-xl my-4 " src={Shares} alt="Shares" />
                             </div>
 
                         </Link>

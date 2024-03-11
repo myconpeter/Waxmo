@@ -20,7 +20,7 @@ const homePage = () => {
 
         <div className="">
             <div className="relative">
-                <img className="" src={BackGround} alt="background" />
+                <img src={BackGround} alt="background" />
                 <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-full"></div>
 
             </div>
@@ -32,13 +32,13 @@ const homePage = () => {
 
 
 
-                <div className="bg-transparent  h-full overflow-hidden flex items-center justify-center pt-8">
+                <div className="bg-transparent  h-full overflow-hidden flex items-center justify-center">
                     <div className="bg-white w-screen  rounded-t-3xl pt-1 ">
 
                         {/* this is for ads take note */}
                         {/* this is for ads take note */}
                         {/* this is for ads take note */}
-                        <div className=" flex items-center mt-0 pt-0 justify-center w-full h-12  absolute mb-36 bg-overLay rounded-t-3xl">
+                        <div className=" flex items-center mt-0 pt-0 justify-center w-full h-12  absolute mb-10 bg-overLay rounded-t-3xl">
                             <p className="text-white">ADS</p>
                         </div>
 
@@ -48,38 +48,52 @@ const homePage = () => {
                             <div className="flex space-x-6  ">
                                 <div className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
                                     <Link to='/home/dashboard' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
-                                        <FaChartLine className="font-extrabold text-5xl text-iconColor " />
+                                        <FaChartLine className="font-extrabold text-4xl text-iconColor " />
 
-                                        <p className="text-black font-semibold text-xl">Dashboard</p>
+                                        <p className="text-black font-semibold text-sm">Dashboard</p>
 
                                     </Link>
                                 </div>
                                 <div className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3">
                                     <Link to='/home/infomation' className="flex flex-col items-center p-2 rounded-3xl w-1/3 ">
-                                        <IoInformationCircle className="font-extrabold text-5xl text-iconColor  " />
-                                        <p className="text-black font-semibold text-xl">Information</p>
+                                        <IoInformationCircle className="font-extrabold text-4xl text-iconColor  " />
+                                        <p className="text-black font-semibold text-sm">Information</p>
 
+                                    </Link>
+                                </div>
+
+                                <div className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3">
+                                    <Link to='/home/about' className="flex flex-1 flex-col items-center p-2 rounded-3xl w-1/3 ">
+                                        <FaUsers className="font-extrabold text-4xl text-iconColor " />
+
+                                        <p className="text-black font-semibold text-sm">About</p>
                                     </Link>
                                 </div>
                             </div>
                             <div className="flex space-x-6 mt-6  ">
-                                <Link to='/home/about' className="flex flex-1 flex-col items-center p-2 rounded-3xl w-1/3 ">
-                                    <FaUsers className="font-extrabold text-5xl text-iconColor " />
+                                <Link to='/home/settings' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
+                                    <FaHandshakeSimple className="font-extrabold text-4xl text-iconColor " />
 
-                                    <p className="text-black font-semibold text-xl">About Us</p>
+                                    <p className="text-black font-semibold text-sm">Partnership</p>
                                 </Link>
 
 
 
 
                                 <Link to='/home/contact' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 " >
-                                    <MdOutlineSupportAgent className="font-extrabold text-5xl text-iconColor " />
-                                    <p className="text-black font-semibold text-xl">Contact Us</p>
+                                    <MdOutlineSupportAgent className="font-extrabold text-4xl text-iconColor " />
+                                    <p className="text-black font-semibold text-sm">Contact Us</p>
+                                </Link>
+
+                                <Link to='/home/settings' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
+                                    <FaHandshakeSimple className="font-extrabold text-4xl text-iconColor " />
+
+                                    <p className="text-black font-semibold text-sm">Partnership</p>
                                 </Link>
 
 
                             </div>
-                            <div className="flex space-x-6 mt-6  ">
+                            {/* <div className="flex space-x-6 mt-6  ">
 
                                 <Link to='/home/settings' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
                                     <FaHandshakeSimple className="font-extrabold text-5xl text-iconColor " />
@@ -97,7 +111,7 @@ const homePage = () => {
                                 </Link>
 
 
-                            </div>
+                            </div> */}
                         </section>
 
 

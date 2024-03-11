@@ -6,7 +6,7 @@ import Menu from "../components/menu";
 const notifications = () => {
 
     return (
-        <div className="bg-overLay w-full h-screen mt-12 " >
+        <div className="bg-overLay w-full h-screen mt-5 " >
             <div className="">
                 <div className="p-2">
                     <Menu PageName='Notifications' />
