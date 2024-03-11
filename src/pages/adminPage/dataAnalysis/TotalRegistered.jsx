@@ -12,7 +12,7 @@ const TotalRegistered = () => {
 
 
 
-            <div className="relative overflow-x-auto shadow-md mt-20">
+            <div className="relative overflow-x-auto shadow-md mt-10">
                 <table className="w-full text-sm text-left rtl:text-right text-black ">
                     <thead className="text-xs text-black bg-darkGray">
                         <tr>

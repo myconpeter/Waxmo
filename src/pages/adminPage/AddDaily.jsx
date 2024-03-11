@@ -21,7 +21,7 @@ const AddDaily = () => {
                 <Menu PageName='Add /Edit Analysis' />
             </div>
 
-            <div className='mt-20'>
+            <div className='mt-10'>
                 <div className='m-2'>
                     <div className="relative overflow-x-auto w-full">
                         <div className="w-5/6 ">
@@ -30,8 +30,8 @@ const AddDaily = () => {
                                     {daily.map((day) => (
                                         <div scope="col" className={selected === day ? "px-4 py-3 rounded-full text-center bg-overLay mx-1" : "px-4 py-3 rounded-full text-center bg-darkGray  mx-1"} key={day.id}>
                                             <div onClick={() => toggle(day)} className=''>
-                                                <p>Day</p>
-                                                <p className='text-2xl'>{day.dayNumber}</p>
+                                                <p className='text-sm'>Day</p>
+                                                <p className='text-sm'>{day.dayNumber}</p>
                                             </div>
                                         </div>
                                     ))}
@@ -45,7 +45,7 @@ const AddDaily = () => {
                 <form action="#" className=" px-5 flex flex-col items-center justify-center">
                     <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
-                        <p className="text-overLay font-semibold">Stock Market Percent</p>
+                        <p className="text-overLay text-sm font-semibold">Stock Market Percent</p>
 
                         <div className="flex">
 
@@ -56,7 +56,7 @@ const AddDaily = () => {
                     </div>
                     <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2">
 
-                        <p className="text-overLay font-semibold">Stock market Amount</p>
+                        <p className="text-overLay text-sm font-semibold">Stock market Amount</p>
 
                         <div className="flex">
 
@@ -67,7 +67,7 @@ const AddDaily = () => {
                     </div>
                     <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2">
 
-                        <p className="text-overLay font-semibold">Forex  market Percent</p>
+                        <p className="text-overLay text-sm font-semibold">Forex  market Percent</p>
 
                         <div className="flex">
 
@@ -78,7 +78,7 @@ const AddDaily = () => {
                     </div>
                     <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2">
 
-                        <p className="text-overLay font-semibold">Forex  market Amount</p>
+                        <p className="text-overLay text-sm font-semibold">Forex  market Amount</p>
 
                         <div className="flex">
 
@@ -89,7 +89,7 @@ const AddDaily = () => {
                     </div>
                     <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2">
 
-                        <p className="text-overLay font-semibold">Crypto market Percent</p>
+                        <p className="text-overLay text-sm font-semibold">Crypto market Percent</p>
 
                         <div className="flex">
 
@@ -100,7 +100,7 @@ const AddDaily = () => {
                     </div>
                     <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2">
 
-                        <p className="text-overLay font-semibold">Crypto market Amount</p>
+                        <p className="text-overLay text-sm font-semibold">Crypto market Amount</p>
 
                         <div className="flex">
 
@@ -111,7 +111,7 @@ const AddDaily = () => {
                     </div>
                     <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2">
 
-                        <p className="text-overLay font-semibold">Analouge market Percent</p>
+                        <p className="text-overLay text-sm font-semibold">Analouge market Percent</p>
 
                         <div className="flex">
 
@@ -122,7 +122,7 @@ const AddDaily = () => {
                     </div>
                     <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2">
 
-                        <p className="text-overLay font-semibold">Analouge market Amount</p>
+                        <p className="text-overLay text-sm font-semibold">Analouge market Amount</p>
 
                         <div className="flex">
 

@@ -7,51 +7,51 @@ const AdminHome = () => {
         <div>
             <Menu PageName='Admin Panel' />
 
-            <div className='mt-16 m-5'>
+            <div className='mt-10 m-5'>
                 <div>
                     <h2 className='text-xl font-semibold text-center'>Statistical Data Analysis</h2>
                 </div>
 
-                <Link to='/admin/totalusers' className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                    <p>All Registered Users </p>
-                    <p>300</p>
+                <Link to='/admin/totalusers' className='flex flex-col justify-center items-center bg-darkGray p-1 rounded-lg'>
+                    <p className='text-sm'>All Registered Users </p>
+                    <p className='text-sm'>300</p>
 
                 </Link>
 
                 <section className='mt-4'>
                     <div className='flex justify-evenly text-xl'>
                         <Link to='/admin/totalusers' className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p>Total Registered </p>
-                            <p>300</p>
+                            <p className='text-sm'>Total Registered </p>
+                            <p className='text-sm'>300</p>
 
                         </Link>
                         <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p>Total Verified </p>
+                            <p className='text-sm'>Total Verified </p>
+                            <p className='text-sm'>100</p>
+
+                        </div>
+                    </div>
+                    <div className='flex justify-evenly text-xl mt-5'>
+                        <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
+                            <p className='text-sm'>Not Verified </p>
+                            <p className='text-sm'>300</p>
+
+                        </div>
+                        <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
+                            <p className='text-sm'>Amount to be paid </p>
                             <p>100</p>
 
                         </div>
                     </div>
                     <div className='flex justify-evenly text-xl mt-5'>
                         <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p>Not Verified </p>
-                            <p>300</p>
+                            <p className='text-sm'> Total Paid out </p>
+                            <p className='text-sm'>300</p>
 
                         </div>
                         <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p>Amount to be paid </p>
-                            <p>100</p>
-
-                        </div>
-                    </div>
-                    <div className='flex justify-evenly text-xl mt-5'>
-                        <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p> Total Paid out </p>
-                            <p>300</p>
-
-                        </div>
-                        <div className='flex flex-col justify-center items-center bg-darkGray p-2 rounded-lg'>
-                            <p>Total Unpaid </p>
-                            <p>100</p>
+                            <p className='text-sm'>Total Unpaid </p>
+                            <p className='text-sm'>100</p>
 
                         </div>
                     </div>

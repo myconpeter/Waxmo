@@ -6,10 +6,10 @@ const Single = () => {
         <div>
             <Menu PageName='Single Notification' />
 
-            <form action="#" className="pt-24 p-10 flex flex-col items-center justify-center">
+            <form action="#" className="pt-6 p-10 flex flex-col items-center justify-center">
                 <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">User`s Email</p>
+                    <p className="text-overLay text-sm font-semibold">User`s Email</p>
 
                     <div className="flex w-full ">
 
@@ -18,9 +18,9 @@ const Single = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2">
 
-                    <p className="text-overLay font-semibold">Message title</p>
+                    <p className="text-overLay text-sm font-semibold">Message title</p>
 
                     <div className="flex w-full ">
 
@@ -29,9 +29,9 @@ const Single = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-2  items-start text-lg mb-2">
 
-                    <p className="text-overLay font-semibold">Message</p>
+                    <p className="text-overLay text-sm font-semibold">Message</p>
 
                     <div className="flex w-full">
 

@@ -6,11 +6,11 @@ const Multiple = () => {
         <div>
             <Menu PageName='All Notification' />
 
-            <form action="#" className="pt-24 p-10 flex flex-col items-center justify-center">
+            <form action="#" className="pt-7 p-10 flex flex-col items-center justify-center">
 
                 <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">Message title</p>
+                    <p className="text-overLay text-sm font-semibold">Message title</p>
 
                     <div className="flex w-full ">
 
@@ -20,9 +20,9 @@ const Multiple = () => {
 
                 </div>
 
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">Message</p>
+                    <p className="text-overLay text-sm font-semibold">Message</p>
 
                     <div className="flex w-full">
 
