@@ -9,7 +9,7 @@ const About = () => {
         <div>
             <Menu PageName='About Us' />
 
-            <div className="mt-20 px-3">
+            <div className="mt-10 px-3">
                 <div className="space-y-4">
                     {/* <p className="text-center font-semibold text-3xl text-darkGreen underline">About Us</p> */}
                     <p className="text-overLay text-center">WaxMo is an Investment company that serves as a channel of investment and risk management, WaxMo is a firm that issues shares to investors, and diversify the stock in different portfolios, i.e investing in Local Stock Exchange market, Foreign stock exchange market, Trading of commodities, Forex trading, Cryptomarket.
@@ -17,7 +17,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="space-y-4 mt-5">
-                    <p className="text-center font-semibold text-xl text-darkGreen underline">What distinguish WaxMo from other Investment company;</p>
+                    <p className="text-center font-semibold text-lg text-darkGreen underline">What distinguish WaxMo from other Investment company;</p>
                     <ul className="text-overLay space-y-4">
                         <li> 1.	The interest Rate: WaxMo return of investment appears to be high and therefore mark out WaxMo as the number one(1) channel of investment of high rate of returns.</li>
                         <li> 2.	Transparency and Accountability: WaxMo transparency in giving out the analysis of allocation of finance and accountability distinguish WaxMo from other investment company.</li>

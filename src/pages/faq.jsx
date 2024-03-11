@@ -21,17 +21,17 @@ const faq = () => {
     return (
         <div className='mt-2 p-2 '>
             <Menu PageName='FAQ' />
-            <div className="mt-16 mb-5 ">
+            <div className="mt-8 mb-5 ">
                 <p className="text-center  text-xl">
                     Here are some Frequently Asked Questions
                 </p>
             </div>
 
             {data.map((item) => (
-                <div className='mt-2 ml-4 bg-darkGray d p-2 rounded-lg' key={item.id}>
+                <div className='mt-1 ml-2 bg-darkGray d p-1 rounded-lg' key={item.id}>
 
                     <div className="flex text-lg font-medium  justify-between items-center cursor-pointer" onClick={() => toggle(item.id)}>
-                        <h3 className='text-overLay'>{item.title}</h3>
+                        <h3 className='text-overLay text-sm'>{item.title}</h3>
 
                         <span>{selected === item.id ? <MdKeyboardArrowDown /> : <MdKeyboardArrowUp />}</span>
 
@@ -39,13 +39,13 @@ const faq = () => {
 
 
 
-                    <p className={selected === item.id ? 'text-black text-lg mt-5' : 'text-white text-lg mt-5 overflow-hidden max-h-0'}>{item.description} </p>
+                    <p className={selected === item.id ? 'text-black text-sm mt-5' : 'text-white text-lg mt-5 overflow-hidden max-h-0'}>{item.description} </p>
 
                 </div>
             ))}
 
 
-            <Link to='/home/contact' className="mt-10">
+            <Link to='/home/contact' className="">
                 <h1 className="text-center font-bold text-xl">Got more questions ? </h1>
                 <p className="text-center pt-6 text-overLay" >Contact us now</p>
             </Link>

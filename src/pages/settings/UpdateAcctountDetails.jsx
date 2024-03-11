@@ -12,10 +12,10 @@ const UpdateAccountDetails = () => {
         <div>
             <Menu PageName='Add Account' />
 
-            <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+            <form action="/" className="pt-8 p-10 flex flex-col items-center justify-center">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-2  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">Account Name</p>
+                    <p className="text-overLay text-sm font-semibold">Account Name</p>
 
                     <div className="flex w-full ">
 
@@ -24,9 +24,9 @@ const UpdateAccountDetails = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-2  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">Account Number</p>
+                    <p className="text-overLay text-sm font-semibold">Account Number</p>
 
                     <div className="flex w-full">
 
@@ -35,9 +35,9 @@ const UpdateAccountDetails = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-2  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">Bank Name</p>
+                    <p className="text-overLay text-sm font-semibold">Bank Name</p>
 
                     <div className="flex w-full">
 
@@ -48,7 +48,7 @@ const UpdateAccountDetails = () => {
                 </div>
 
                 <div className='p-2'>
-                    <p className=' text-danger'> Note : Name must match with Bank details </p>
+                    <p className=' text-danger text-sm'> Note : Name must match with Bank details </p>
                 </div>
 
 

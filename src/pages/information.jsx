@@ -4,7 +4,7 @@ const information = () => {
     return (
         <div>
             <Menu PageName='Information' />
-            <div className="mt-16 relative">
+            <div className="mt-10 relative">
 
             </div>
             <div className='px-4'>

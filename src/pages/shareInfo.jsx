@@ -24,17 +24,17 @@ const ShareInfo = () => {
     return (
         <div className='mt-2 p-2 '>
             <Menu PageName='Shares Information' />
-            <div className="mt-16 relative">
+            <div className="mt-8 relative">
 
             </div>
 
 
 
             {data.map((item) => (
-                <div className='mt-2 ml-4 bg-darkGray d p-2 rounded-lg' key={item.id}>
+                <div className='mt-1 ml-1 bg-darkGray p-1 rounded-lg' key={item.id}>
 
-                    <div className="flex text-lg font-medium  justify-between items-center cursor-pointer" onClick={() => toggle(item.id)}>
-                        <h3 className='text-overLay'>{item.title}</h3>
+                    <div className="flex  font-medium  justify-between items-center" onClick={() => toggle(item.id)}>
+                        <h3 className='text-overLay text-sm'>{item.title}</h3>
 
                         <span>{selected === item.id ? <MdKeyboardArrowDown /> : <MdKeyboardArrowUp />
                         }</span>
@@ -43,7 +43,7 @@ const ShareInfo = () => {
 
 
 
-                    <p className={selected === item.id ? 'text-black text-lg mt-5' : 'text-white text-lg mt-5 overflow-hidden max-h-0'}>{item.description} </p>
+                    <p className={selected === item.id ? 'text-black text-sm mt-5' : 'text-white text-lg mt-5 overflow-hidden max-h-0'}>{item.description} </p>
 
                 </div>
             ))}

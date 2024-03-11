@@ -26,10 +26,10 @@ const UpdateMobileNO = () => {
         <div>
             <Menu PageName='Update Phone' />
 
-            <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+            <form action="/" className="pt-8 p-10 flex flex-col items-center justify-center">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-2 items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">Old Mobile Number</p>
+                    <p className="text-overLay text-sm font-semibold">Old Mobile Number</p>
 
                     <div className="flex w-full">
 
@@ -38,9 +38,9 @@ const UpdateMobileNO = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-2  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">New Mobile Number</p>
+                    <p className="text-overLay text-sm font-semibold">New Mobile Number</p>
 
                     <div className="flex w-full">
 
@@ -49,9 +49,9 @@ const UpdateMobileNO = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full mt-2  items-start text-lg mb-2 pt-2">
 
-                    <p className="text-overLay font-semibold">Confirm Password</p>
+                    <p className="text-overLay text-sm font-semibold">Confirm Password</p>
 
                     <div className="flex w-full">
 

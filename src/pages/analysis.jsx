@@ -38,7 +38,7 @@ const Analysis = () => {
         <div className='bg-white'>
             <Menu PageName='Daily Analysis' />
 
-            <div className='mt-16'>
+            <div className='mt-10'>
 
             </div>
 
@@ -50,8 +50,8 @@ const Analysis = () => {
                                 {daily.map((day) => (
                                     <div scope="col" className={selected === day ? "px-4 py-3 rounded-full text-center bg-overLay mx-1" : "px-4 py-3 rounded-full text-center bg-darkGray  mx-1"} key={day.id}>
                                         <div onClick={() => toggle(day)} className=''>
-                                            <p>Day</p>
-                                            <p className='text-2xl'>{day.dayNumber}</p>
+                                            <p className='text-sm'>Day</p>
+                                            <p className='text-xl'>{day.dayNumber}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -63,7 +63,7 @@ const Analysis = () => {
             </div>
 
             <div className='flex justify-evenly'>
-                <div className='flex flex-col space-y-4  justify-evenly mt-10'>
+                <div className='flex flex-col space-y-4  justify-evenly '>
 
                     <div className=' h-72 w-36 bg-darkGreen rounded-lg'>
                         <div className='p-2 border-b-2 border-darkGray'>
@@ -71,8 +71,8 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>{sel.stockPercent}</p>
-                            <p className='text-3xl text-center pt-4 text-white'>{sel.stockAmount}</p>
+                            <p className='text-xl text-center text-white'>{sel.stockPercent}</p>
+                            <p className='text-xl text-center pt-4 text-white'>{sel.stockAmount}</p>
                         </div>
                     </div>
                     <div className='h-60 w-36 bg-darkGray rounded-lg'>
@@ -81,14 +81,14 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>{sel.cryptoPercent}</p>
-                            <p className='text-3xl text-center pt-4 text-white'>{sel.cryptoAmount}</p>
+                            <p className='text-xl text-center text-white'>{sel.cryptoPercent}</p>
+                            <p className='text-xl text-center pt-4 text-white'>{sel.cryptoAmount}</p>
                         </div>
                     </div>
 
                 </div>
 
-                <div className='flex flex-col space-y-4  justify-evenly mt-10'>
+                <div className='flex flex-col space-y-4  justify-evenly'>
 
                     <div className='h-60 w-36 bg-darkGreen rounded-lg'>
                         <div className='p-2 border-b-2 border-darkGray'>
@@ -96,8 +96,8 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>{sel.forexPercent}</p>
-                            <p className='text-3xl text-center pt-4 text-white'>{sel.forexAmount}</p>
+                            <p className='text-xl text-center text-white'>{sel.forexPercent}</p>
+                            <p className='text-xl text-center pt-4 text-white'>{sel.forexAmount}</p>
                         </div>
                     </div>
                     <div className='h-72 w-36 bg-darkGray rounded-lg'>
@@ -106,8 +106,8 @@ const Analysis = () => {
                         </div>
 
                         <div className='flex flex-col mt-5  '>
-                            <p className='text-4xl text-center text-white'>{sel.adsPercent}</p>
-                            <p className='text-3xl text-center pt-4 text-white'>{sel.adsAmount}</p>
+                            <p className='text-xl text-center text-white'>{sel.adsPercent}</p>
+                            <p className='text-xl text-center pt-4 text-white'>{sel.adsAmount}</p>
                         </div>
                     </div>
 

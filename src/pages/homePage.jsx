@@ -82,13 +82,13 @@ const homePage = () => {
 
                                 <Link to='/home/contact' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 " >
                                     <MdOutlineSupportAgent className="font-extrabold text-4xl text-iconColor " />
-                                    <p className="text-black font-semibold text-sm">Contact Us</p>
+                                    <p className="text-black font-semibold text-sm">Contact</p>
                                 </Link>
 
-                                <Link to='/home/settings' className="flex flex-1 flex-col items-center  p-2 rounded-3xl w-1/3 ">
-                                    <FaHandshakeSimple className="font-extrabold text-4xl text-iconColor " />
+                                <Link to='/home/faq' className="flex flex-1 flex-col items-center p-2 rounded-3xl w-1/3 ">
+                                    <IoIosChatbubbles className="font-extrabold text-4xl text-iconColor " />
 
-                                    <p className="text-black font-semibold text-sm">Partnership</p>
+                                    <p className="text-black font-semibold text-sm">FAQ</p>
                                 </Link>
 
 

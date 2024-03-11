@@ -80,19 +80,19 @@ const Menu = (props) => {
 
 
             {nav && (
-                <div className='flex  absolute top-0 left-0 text-white h-screen w-full  '>
+                <div className='flex  absolute top-0 left-0 text-white h-36 w-full  '>
 
                     <div onClick={() => setNav(!nav)} className='w-1/3   h-screen '></div>
-                    <ul className=' flex  flex-col  w-2/3 bg-white text-black h-screen justify-center items-center'>
+                    <ul className=' flex  flex-col  w-2/3 bg-white text-black h-screen items-center'>
                         {links.map(({ id, link, ref }) => (
-                            <li key={id} className='text-2xl capitalize text-overLay py-4 px-4'>
+                            <li key={id} className='text-sm capitalize text-overLay py-4 px-4'>
 
                                 <Link to={ref} > {link}</Link>
 
 
                             </li>
                         ))}
-                        <li className='text-2xl capitalize text-overLay py-4 px-4'>
+                        <li className='text-sm text-overLay py-4 px-4'>
 
                             <Link to='/admin' > Admin Panel</Link>
 

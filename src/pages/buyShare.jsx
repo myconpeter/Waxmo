@@ -17,7 +17,7 @@ const BuyShare = () => {
 
 
     return (
-        <div className='mt-2 p-2 '>
+        <div className='mt-7 p-2 '>
             <Menu PageName='Buy Share' />
 
             <div className="mt-2 relative">
@@ -27,32 +27,32 @@ const BuyShare = () => {
 
             <div>
                 <div className="">
-                    <p className="text-overLay text-3xl font-bold underline">Want to buy a Share ? </p>
+                    <p className="text-overLay text-sm font-bold underline">Want to buy a Share ? </p>
 
                 </div>
 
                 <div>
-                    <p className="text-overLay ">Choose below the percentage (%) of shares you want to buy</p>
+                    <p className="text-overLay text-sm ">Choose below the percentage (%) of shares you want to buy</p>
                 </div>
             </div>
 
 
             {data.map((item) => (
-                <div className='mt-2 ml-4 bg-darkGray h-fit p-3 rounded-lg' key={item.id}>
+                <div className='mt-1 ml-1 bg-darkGray h-fit p-3 rounded-lg' key={item.id}>
 
                     <div className="flex text-lg font-medium  justify-between items-center cursor-pointer" onClick={() => toggle(item.id)}>
-                        <h3 className='text-black'>{item.title} </h3>
-                        <p className="text-darkGreen">{item.Amount}</p>
+                        <h3 className='text-black text-sm'>{item.title} </h3>
+                        <p className="text-darkGreen text-sm">{item.Amount}</p>
 
                         <span>{selected === item.id ? <MdKeyboardArrowDown /> : <MdKeyboardArrowUp />
                         }</span>
 
                     </div>
-                    <p className={selected === item.id ? 'text-black text-md mt-1' : 'text-white text-lg  overflow-hidden max-h-0'}>{item.link0ne} </p>
-                    <p className={selected === item.id ? 'text-black text-md mt-1' : 'text-white text-lg overflow-hidden max-h-0'}>{item.linkTwo} </p>
-                    <p className={selected === item.id ? 'text-black text-md mt-1' : 'text-white text-lg overflow-hidden max-h-0'}>{item.linkThree} </p>
+                    <p className={selected === item.id ? 'text-black text-sm mt-1' : 'text-white text-lg  overflow-hidden max-h-0'}>{item.link0ne} </p>
+                    <p className={selected === item.id ? 'text-black text-sm mt-1' : 'text-white text-lg overflow-hidden max-h-0'}>{item.linkTwo} </p>
+                    <p className={selected === item.id ? 'text-black text-sm mt-1' : 'text-white text-lg overflow-hidden max-h-0'}>{item.linkThree} </p>
 
-                    <p className={selected === item.id ? 'text-overLay text-sm mt-1' : 'text-white text-lg overflow-hidden max-h-0'}> Note : Link will redirect you to WaxMo Manager whatsapp page </p>
+                    <p className={selected === item.id ? 'text-overLay text-sm mt-1' : 'text-white text-sm overflow-hidden max-h-0'}> Note : Link will redirect you to WaxMo Manager whatsapp page </p>
                 </div>
             ))}
 

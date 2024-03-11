@@ -49,7 +49,7 @@ const dashboard = () => {
 
                         </div>
                         <div className="bg-darkGray px-0.5 h-full  mr-4 rounded-lg ">
-                            <FaUser className="text-black text-sm  items-center justify-center" />
+                            <FaUser className="text-overLay text-sm  items-center justify-center" />
                         </div>
                     </div>
 
@@ -90,7 +90,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20 h-10 rounded-xl" src={Investment} alt="Investment" />
+                                <img className="w-12 h-10 rounded-xl" src={Investment} alt="Investment" />
                             </div>
 
                         </Link>
@@ -100,7 +100,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20 h-9 rounded-xl" src={Ananlysis} alt="Ananlysis" />
+                                <img className="w-12 h-10 rounded-xl" src={Ananlysis} alt="Ananlysis" />
                             </div>
 
                         </Link>
@@ -110,7 +110,7 @@ const dashboard = () => {
                             </div>
 
                             <div>
-                                <img className="w-20  h-10  rounded-xl my-4 " src={Shares} alt="Shares" />
+                                <img className="w-12 h-10  rounded-xl my-4 " src={Shares} alt="Shares" />
                             </div>
 
                         </Link>

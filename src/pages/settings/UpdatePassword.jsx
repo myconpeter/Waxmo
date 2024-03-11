@@ -26,10 +26,10 @@ const UpdatePassword = () => {
         <div>
             <Menu PageName='Update Password' />
 
-            <form action="/" className="pt-24 p-10 flex flex-col items-center justify-center">
+            <form action="/" className="pt-12 p-10 flex flex-col items-center justify-center">
                 <div className="flex flex-col items-start justify-center text-lg mb-6">
 
-                    <p className="text-overLay font-semibold">Old Password</p>
+                    <p className="text-overLay text-sm font-semibold">Old Password</p>
 
                     <div className="flex border-b-2 border-overLay">
 
@@ -41,7 +41,7 @@ const UpdatePassword = () => {
                 </div>
                 <div className="flex flex-col items-start justify-center text-lg mb-6">
 
-                    <p className="text-overLay font-semibold">New Password</p>
+                    <p className="text-overLay text-sm font-semibold">New Password</p>
 
                     <div className="flex border-b-2 border-overLay">
 
@@ -53,7 +53,7 @@ const UpdatePassword = () => {
                 </div>
                 <div className="flex flex-col items-start justify-center text-lg mb-6">
 
-                    <p className="text-overLay font-semibold">Confirm New Password</p>
+                    <p className="text-overLay text-sm font-semibold">Confirm New Password</p>
 
                     <div className="flex border-b-2 border-overLay">
 

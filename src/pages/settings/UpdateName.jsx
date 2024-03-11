@@ -26,10 +26,10 @@ const UpdateName = () => {
         <div>
             <Menu PageName='Update Name' />
 
-            <form action="#" className="pt-20 p-10 flex flex-col">
+            <form action="#" className="pt-12 p-10 flex flex-col">
                 <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
-                    <p className="text-overLay font-semibold">First Name</p>
+                    <p className="text-overLay text-sm font-semibold">First Name</p>
 
                     <div className="flex w-full">
 
@@ -39,9 +39,9 @@ const UpdateName = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay items-start justify-center mt-6  text-lg mb-2">
+                <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
-                    <p className="text-overLay font-semibold">Last Name</p>
+                    <p className="text-overLay text-sm font-semibold">Last Name</p>
 
                     <div className="flex w-full">
 
@@ -51,9 +51,9 @@ const UpdateName = () => {
                     </div>
 
                 </div>
-                <div className="flex flex-col border-b-2 border-overLay w-full mt-6  items-start text-lg mb-2 pt-2">
+                <div className="flex flex-col border-b-2 border-overLay w-full   items-start text-lg  pt-2">
 
-                    <p className="text-overLay font-semibold">Password</p>
+                    <p className="text-overLay text-sm font-semibold">Password</p>
 
                     <div className="flex w-full">
 
@@ -64,11 +64,11 @@ const UpdateName = () => {
                 </div>
 
                 <div className='p-2'>
-                    <p className=' text-danger'> Note : Name must match with Bank details </p>
+                    <p className=' text-danger text-sm'> Note : Name must match with Bank details </p>
                 </div>
 
 
-                <button className="bg-overLay font-medium p-2 md:p-4 text-white uppercase w-full rounded-full">Update Name</button>
+                <button className="bg-overLay font-medium p-2 text-sm text-white uppercase w-full rounded-full">Update Name</button>
             </form>
         </div>
     )
