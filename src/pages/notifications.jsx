@@ -13,7 +13,7 @@ const notifications = () => {
                 </div>
             </div>
             <div className="flex items-start gap-2.5 p-2">
-                <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-lightGray rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 bg-lightGray rounded-e-xl rounded-es-xl dark:bg-gray-700">
                     <div className="flex items-center space-x-2 rtl:space-x-reverse">
                         <span className="text-sm font-semibold text-overLay ">DEPOSIT SUCCESSFUL</span>
                     </div>
@@ -24,7 +24,7 @@ const notifications = () => {
 
             </div>
             <div className="flex items-start gap-2.5 p-2">
-                <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-lightGray rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4  bg-lightGray rounded-e-xl rounded-es-xl dark:bg-gray-700">
                     <div className="flex items-center space-x-2 rtl:space-x-reverse">
                         <span className="text-sm font-semibold text-overLay ">DIVIDEND PAYMENT</span>
                     </div>

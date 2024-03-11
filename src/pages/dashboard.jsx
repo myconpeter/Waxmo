@@ -80,7 +80,7 @@ const dashboard = () => {
                     <div>
 
                         <div className=" mt-2 mx-4 ">
-                            <p>Actions</p>
+                            <p className="text-sm">Actions</p>
                         </div>
 
 

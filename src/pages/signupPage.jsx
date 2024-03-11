@@ -44,7 +44,7 @@ const signupPage = () => {
                         <form action="/home/homepage" className="pt-5 p-10 flex flex-col">
                             <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
-                                <p className="text-overLay font-semibold">First Name</p>
+                                <p className="text-overLay text-sm font-semibold">First Name</p>
 
                                 <div className="flex  w-screen   ">
 
@@ -56,7 +56,7 @@ const signupPage = () => {
                             </div>
                             <div className="flex flex-col border-b-2 border-overLay items-start justify-center text-lg mb-2">
 
-                                <p className="text-overLay font-semibold">Last Name</p>
+                                <p className="text-overLay text-sm font-semibold">Last Name</p>
 
                                 <div className="flex  w-screen  ">
 
@@ -67,7 +67,7 @@ const signupPage = () => {
                             </div>
                             <div className="flex flex-col  border-b-2 border-overLay items-start justify-center text-lg mb-2">
 
-                                <p className="text-overLay font-semibold">Phone Number</p>
+                                <p className="text-overLay text-sm font-semibold">Phone Number</p>
 
                                 <div className="flex  w-screen  ">
 
@@ -78,7 +78,7 @@ const signupPage = () => {
                             </div>
                             <div className="flex flex-col border-b-2 border-overLay items-start justify-center text-lg mb-2">
 
-                                <p className="text-overLay font-semibold">Email</p>
+                                <p className="text-overLay text-sm font-semibold">Email</p>
 
                                 <div className="flex w-screen ">
 
@@ -89,7 +89,7 @@ const signupPage = () => {
                             </div>
                             <div className="flex flex-col border-b-2 border-overLay w-full  items-start text-lg mb-2 pt-2">
 
-                                <p className="text-overLay font-semibold">Password</p>
+                                <p className="text-overLay text-sm font-semibold">Password</p>
 
                                 <div className="flex w-screen ">
 
@@ -100,7 +100,7 @@ const signupPage = () => {
                             </div>
                             <div className="flex flex-col  border-b-2 border-overLay w-full items-start text-lg mb-2 pt-2">
 
-                                <p className="text-overLay font-semibold">Confirm Password</p>
+                                <p className="text-overLay text-sm font-semibold">Confirm Password</p>
 
                                 <div className="flex w-screen ">
 
@@ -111,9 +111,9 @@ const signupPage = () => {
                             </div>
 
                             <div>
-                                <input type="checkbox" name="checkbox" id="" />
+                                <input type="checkbox" required={true} name="checkbox" id="" className="text-overLay" />
 
-                                <Link to='/termandcondition' aria-required className="mx-2 ">Terms and Conditions</Link>
+                                <Link to='/termandcondition' aria-required className="mx-2 text-sm text- ">Terms and Conditions</Link>
                             </div>
 
 
@@ -121,8 +121,8 @@ const signupPage = () => {
 
                             <div className="flex flex-col px-4 mt-4  items-end  space-y-1 ">
 
-                                <p>Already have an account ? </p>
-                                <Link to="/login" className="text-xl font-bold text-overLay">Login</Link>
+                                <p className="text-sm">Already have an account ? </p>
+                                <Link to="/login" className="text-lg font-bold text-overLay">Login</Link>
 
                             </div>
                         </form>

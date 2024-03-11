@@ -92,6 +92,13 @@ const Menu = (props) => {
 
                             </li>
                         ))}
+                        <li className='text-sm text-danger py-4 px-4'>
+
+                            <Link to='/' > Logout </Link>
+
+
+                        </li>
+
                         <li className='text-sm text-overLay py-4 px-4'>
 
                             <Link to='/admin' > Admin Panel</Link>

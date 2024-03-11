@@ -64,7 +64,7 @@ const UpdateName = () => {
                 </div>
 
                 <div className='p-2'>
-                    <p className=' text-danger text-sm'> Note : Name must match with Bank details </p>
+                    <p className=' text-danger text-xs'> Note : Name must match with Bank details </p>
                 </div>
 
 

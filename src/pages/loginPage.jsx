@@ -58,7 +58,7 @@ const loginPage = () => {
                         <form onSubmit={onSubmit} className="pt-10 p-10 flex flex-col">
                             <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
-                                <p className="text-overLay font-semibold">Email</p>
+                                <p className="text-overLay text-sm font-semibold">Email</p>
 
                                 <div className="flex  w-screen   ">
 
@@ -70,7 +70,7 @@ const loginPage = () => {
                             </div>
                             <div className="flex flex-col border-b-2 border-overLay items-start justify-center  text-lg mb-2">
 
-                                <p className="text-overLay font-semibold">Password</p>
+                                <p className="text-overLay text-sm font-semibold">Password</p>
 
                                 <div className="flex  w-screen   ">
 
@@ -83,15 +83,15 @@ const loginPage = () => {
 
 
                             <div className="pb-5 flex  justify-end">
-                                <Link to="/recoverpassword" className="">Forgotten Password ? </Link>
+                                <Link to="/recoverpassword" className="text-sm">Forgotten Password ? </Link>
                             </div>
                             <Link to='/home/homepage' className="bg-overLay font-medium p-2 text-white text-center uppercase w-full rounded-full">Login</Link>
 
                             {/* the sign up function */}
                             <div className="flex flex-col items-end pt-2 mt-5 space-y-1 ">
 
-                                <p>Dont't have an account ? </p>
-                                <Link to="/signup" className="text-xl font-bold text-overLay">Sign Up</Link>
+                                <p className="text-sm">Dont't have an account ? </p>
+                                <Link to="/signup" className="text-lg font-bold text-overLay">Sign Up</Link>
 
                             </div>
                         </form>

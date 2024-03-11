@@ -27,7 +27,7 @@ const homeLayout = () => {
                                 <NavLink to="/home/homepage" className={({ isActive }) =>
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <IoHome />
-                                    <p className="text-black text-sm">Home</p>
+                                    <p className="text-black text-xs">Home</p>
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
@@ -39,7 +39,7 @@ const homeLayout = () => {
                                     </span> */}
                                     <FaBell />
 
-                                    <p className="text-black text-sm">Notification</p>
+                                    <p className="text-black text-xs">Notification</p>
 
                                 </NavLink>
                             </div>
@@ -48,7 +48,7 @@ const homeLayout = () => {
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <MdDashboard />
 
-                                    <p className="text-black text-sm">Dashboard</p>
+                                    <p className="text-black text-xs">Dashboard</p>
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
@@ -56,7 +56,7 @@ const homeLayout = () => {
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <IoSettingsSharp />
 
-                                    <p className="text-black text-sm">Settings</p>
+                                    <p className="text-black text-xs">Settings</p>
                                 </NavLink>
                             </div>
                             <div className=" flex flex-col flex-1 items-center justify-center  " >
@@ -64,7 +64,7 @@ const homeLayout = () => {
                                     isActive ? " p-2 text-black flex flex-col items-center" : "p-2 text-overLay flex flex-col items-center"}>
                                     <FaUser />
 
-                                    <p className="text-black text-sm">Me</p>
+                                    <p className="text-black text-xs">Me</p>
                                 </NavLink>
                             </div>
 

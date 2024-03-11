@@ -61,19 +61,19 @@ const settings = () => {
                 {/* <div className='h-36 mt-2  bg-darkGray rounded-3xl'>
 
                 </div> */}
-                <Link to='/home/updatepassword' className=' flex items-center justify-between  h-8 w-full bg-darkGray mt-2 rounded-md p-3 '>
+                <Link to='/home/updatepassword' className=' flex items-center justify-between  h-8 w-full bg-darkGray mt-1 rounded-md p-3 '>
                     <p className='text-overLay font-semibold text-sm '>Update Password</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
 
 
                 </Link>
-                <Link to='/home/updatemobileno' className=' flex items-center justify-between  h-8 w-full bg-darkGray  mt-2 rounded-md  p-3 '>
+                <Link to='/home/updatemobileno' className=' flex items-center justify-between  h-8 w-full bg-darkGray  mt-1 rounded-md  p-3 '>
                     <p className='text-overLay font-semibold text-sm '>Update Moblile Number</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
                 </Link>
-                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between  h-8 w-full bg-darkGray  mt-2 rounded-md p-3 '>
+                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between  h-8 w-full bg-darkGray  mt-1 rounded-md p-3 '>
                     <p className='text-overLay font-semibold text-sm '>Update Account Details</p>
                     <IoIosArrowDroprightCircle className='text-overLay' />
 

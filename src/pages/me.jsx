@@ -19,7 +19,7 @@ const me = () => {
 
 
                 </Link>
-                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between h-8 w-full bg-darkGray mt-4 rounded-md  p-3 '>
+                <Link to='/home/updateaccountdetails' className=' flex items-center justify-between h-8 w-full bg-darkGray mt-1 rounded-md  p-3 '>
                     <p className='text-overLay font-semibold text-sm '>Add Bank Details</p>
 
                     <IoIosArrowDroprightCircle className='text-overLay' />
@@ -27,7 +27,7 @@ const me = () => {
 
                 </Link>
                 <div className='mt-2'>
-                    <p className='text-black text-xl'>Links</p>
+                    <p className='text-black text-sm'>Links</p>
                 </div>
 
                 <Link to='/home/faq' className=' flex items-center justify-between h-8 w-full bg-darkGray  mt-1 rounded-md  p-3 '>
