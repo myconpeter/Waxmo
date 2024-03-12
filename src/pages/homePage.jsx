@@ -15,9 +15,10 @@ import BackGround from "../assets/welcomePage-backgroundImage.jpg";
 
 import { Link } from "react-router-dom";
 
+// import CarouselDefault from '../components/Carousel'
+
 const homePage = () => {
     return (
-
         <div className="">
             <div className="relative">
                 <img src={BackGround} className="h-48 w-full" alt="background" />
@@ -29,20 +30,10 @@ const homePage = () => {
             <div
                 className="relative bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed"
             >
-
-
-
                 <div className="bg-transparent  h-full overflow-hidden flex items-center justify-center">
-                    <div className="bg-white w-screen  rounded-t-3xl pt-1 ">
+                    <div className="bg-white w-screen  rounded-3xl pt-1 ">
 
-                        {/* this is for ads take note */}
-                        {/* this is for ads take note */}
-                        {/* this is for ads take note */}
-                        <div className=" flex items-center mt-0 pt-0 justify-center w-full h-12  relative bg-overLay rounded-t-3xl">
-                            <p className="text-white">ADS</p>
-                        </div>
 
-                        {/* this is for ads take note */}
 
                         <section className="relative  m-6 h-full">
                             <div className="flex space-x-2  ">
