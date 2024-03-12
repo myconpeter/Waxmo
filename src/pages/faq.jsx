@@ -44,8 +44,12 @@ const faq = () => {
                 </div>
             ))}
 
+            <div className="h-12">
 
-            <Link to='/home/contact' className="">
+            </div>
+
+
+            <Link to='/home/contact'>
                 <h1 className="text-center font-bold text-xl">Got more questions ? </h1>
                 <p className="text-center pt-6 text-overLay" >Contact us now</p>
             </Link>

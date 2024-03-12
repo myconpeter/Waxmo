@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react'
 import Menu from '../components/menu'
 
-
+// img
+import Crypto from '../assets/crypto.jpg'
+import Foreign from '../assets/foreign.jpg'
+import Stock from '../assets/stock.jpg'
+import Analouge from '../assets/analouge.jpg'
 
 
 
@@ -65,22 +69,29 @@ const Analysis = () => {
             <div className='flex justify-evenly'>
                 <div className='flex flex-col space-y-4  justify-evenly '>
 
-                    <div className=' h-72 w-36 bg-darkGreen rounded-lg'>
-                        <div className='p-2 border-b-2 border-darkGray'>
-                            <p className='text-center text-white font-semibold'>Stock Exchange Market</p>
+
+                    <div className='h-72 w-36 bg-darkGray rounded-lg'>
+                        <div className='absolute' >
+                            <img src={Stock} className='h-72 w-36 rounded-lg' alt="" />
+                        </div>
+                        <div className='relative p-2 border-b-2 border-lightGray'>
+                            <p className='text-center text-white font-semibold'>Stock Market</p>
                         </div>
 
-                        <div className='flex flex-col mt-5  '>
+                        <div className='relative flex flex-col mt-5  '>
                             <p className='text-xl text-center text-white'>{sel.stockPercent}</p>
                             <p className='text-xl text-center pt-4 text-white'>{sel.stockAmount}</p>
                         </div>
                     </div>
                     <div className='h-60 w-36 bg-darkGray rounded-lg'>
-                        <div className='p-2 border-b-2 border-lightGray'>
+                        <div className='absolute' >
+                            <img src={Crypto} className='h-60 w-36 rounded-lg' alt="" />
+                        </div>
+                        <div className='relative p-2 border-b-2 border-lightGray'>
                             <p className='text-center text-white font-semibold'>Crypto Currency</p>
                         </div>
 
-                        <div className='flex flex-col mt-5  '>
+                        <div className='relative flex flex-col mt-5  '>
                             <p className='text-xl text-center text-white'>{sel.cryptoPercent}</p>
                             <p className='text-xl text-center pt-4 text-white'>{sel.cryptoAmount}</p>
                         </div>
@@ -90,24 +101,30 @@ const Analysis = () => {
 
                 <div className='flex flex-col space-y-4  justify-evenly'>
 
-                    <div className='h-60 w-36 bg-darkGreen rounded-lg'>
-                        <div className='p-2 border-b-2 border-darkGray'>
-                            <p className='text-center text-white font-semibold'>Foreign Exchange </p>
+                    <div className='h-60 w-36 bg-darkGray rounded-lg'>
+                        <div className='absolute' >
+                            <img src={Foreign} className='h-60 w-36 rounded-lg' alt="" />
+                        </div>
+                        <div className='relative p-2 border-b-2 border-lightGray'>
+                            <p className='text-center text-black font-semibold'>FOREX Market</p>
                         </div>
 
-                        <div className='flex flex-col mt-5  '>
-                            <p className='text-xl text-center text-white'>{sel.forexPercent}</p>
-                            <p className='text-xl text-center pt-4 text-white'>{sel.forexAmount}</p>
+                        <div className='relative flex flex-col mt-5  '>
+                            <p className='text-xl text-center text-black'>{sel.cryptoPercent}</p>
+                            <p className='text-xl text-center pt-4 text-black'>{sel.cryptoAmount}</p>
                         </div>
                     </div>
                     <div className='h-72 w-36 bg-darkGray rounded-lg'>
-                        <div className='p-2 border-b-2 border-lightGray'>
-                            <p className='text-center text-white font-semibold'>Adverts</p>
+                        <div className='absolute' >
+                            <img src={Analouge} className='h-72 w-36 rounded-lg' alt="" />
+                        </div>
+                        <div className='relative p-2 border-b-2 border-lightGray'>
+                            <p className='text-center text-white font-semibold'>Analouge Market</p>
                         </div>
 
-                        <div className='flex flex-col mt-5  '>
-                            <p className='text-xl text-center text-white'>{sel.adsPercent}</p>
-                            <p className='text-xl text-center pt-4 text-white'>{sel.adsAmount}</p>
+                        <div className='relative flex flex-col mt-5  '>
+                            <p className='text-xl text-center text-white'>{sel.cryptoPercent}</p>
+                            <p className='text-xl text-center pt-4 text-white'>{sel.cryptoAmount}</p>
                         </div>
                     </div>
 

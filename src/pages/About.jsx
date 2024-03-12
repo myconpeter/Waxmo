@@ -3,6 +3,16 @@ import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 
+import Waxmo from '../assets/waxmo.jpg'
+import Return from '../assets/return.jpg'
+import Transparent from '../assets/transparent.jpg'
+import Team from '../assets/Team.jpg'
+import Diverse from '../assets/diverse.jpg'
+import Risk from '../assets/risk.jpg'
+
+
+
+
 
 const About = () => {
     return (
@@ -16,13 +26,19 @@ const About = () => {
                         WaxMo is managed by professionals team who they possess the four basic managerial skills i.e Planning, Organizing, Leading, and Controlling. They have high knowledge in finance and risk management, and as such are competence to manage and make informed decision on the firm financial and non-financial activities.
                     </p>
                 </div>
+                <img src={Waxmo} className="h-52 w-full rounded-lg" alt="" />
                 <div className="space-y-4 mt-5">
-                    <p className="text-center font-semibold text-lg text-darkGreen underline">What distinguish WaxMo from other Investment company;</p>
-                    <ul className="text-overLay space-y-4">
+                    <p className="text-center font-semibold text-sm text-darkGreen underline">What distinguish WaxMo from other Investment company;</p>
+                    <ul className="text-overLay text-sm space-y-4">
                         <li> 1.	The interest Rate: WaxMo return of investment appears to be high and therefore mark out WaxMo as the number one(1) channel of investment of high rate of returns.</li>
+                        <img src={Return} className="h-52 w-full rounded-lg" alt="" />
+
                         <li> 2.	Transparency and Accountability: WaxMo transparency in giving out the analysis of allocation of finance and accountability distinguish WaxMo from other investment company.</li>
+                        <img src={Transparent} className="h-52 w-full rounded-lg" alt="" />
                         <li> 3.	Professional Management: WaxMo being managed by professional teams who have extensive knowledge in finance and risk management and managers who possess managerial skills distinguish WaxMo from other platform</li>
+                        <img src={Team} className="h-52 w-full rounded-lg" alt="" />
                         <li> 4.	Diversified Portfolios: WaxMo diversifying investment gives WaxMo upper hand over other investment firm.</li>
+                        <img src={Diverse} className="h-52 w-full rounded-lg" alt="" />
                         <li> 5.	Team work: Partnering with other financial and production company standardize WaxMo from other platform</li>
 
                     </ul>
@@ -36,6 +52,7 @@ const About = () => {
                     <ul className="text-overLay space-y-4">
                         <li> i)	To solve the problem of inflation by increasing the financial value of money.</li>
                         <li> ii) To serve as a channel of investment and risk management.</li>
+                        <img src={Risk} className="h-52 w-full rounded-lg" alt="" />
                         <li> iii) To  improve team work.</li>
                         <li>iv)	To increase investing mindset in people.</li>
                         <li> v)	To ameliorate idleness of finance.</li>

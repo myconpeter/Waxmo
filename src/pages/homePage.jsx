@@ -20,14 +20,14 @@ const homePage = () => {
 
         <div className="">
             <div className="relative">
-                <img src={BackGround} alt="background" />
-                <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-full"></div>
+                <img src={BackGround} className="h-48 w-full" alt="background" />
+                <div className="bg-overLay absolute inset-0 opacity-50 w-screen h-48"></div>
 
             </div>
 
 
             <div
-                className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed"
+                className="relative bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed"
             >
 
 

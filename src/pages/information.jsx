@@ -1,5 +1,8 @@
 import Menu from '../components/menu'
 
+import Grow from '../assets/grow.jpg'
+import Dividend from '../assets/dividend.jpg'
+
 const information = () => {
     return (
         <div>
@@ -17,6 +20,8 @@ const information = () => {
                         Investment is traditionally defined as the commitment of resources to achieve later benefits. If an investment involves money, then it simply mean commitment of finance to receive more money later
                     </p>
                 </div>
+
+                <img src={Grow} className="h-52 w-full rounded-lg" alt="" />
                 <div className='space-y-4 mt-4'>
                     <p className='font-bold text-center '>
                         Shares: Overview
@@ -41,6 +46,8 @@ const information = () => {
                     <p>
                         Dividend is a distribution of profits by a company to it’s investors.                    </p>
                 </div>
+
+                <img src={Dividend} className="h-52 w-full rounded-lg" alt="" />
                 <div className='space-y-4 mt-4'>
                     <p className='font-bold text-center '>
                         WaxMo: Overview
