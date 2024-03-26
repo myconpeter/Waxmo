@@ -93,7 +93,7 @@ const Analysis = () => {
                             <img src={Crypto} className='h-60 w-36 rounded-lg' alt="" />
                         </div>
                         <div className='relative p-2 border-b-2 border-lightGray'>
-                            <p className='text-center text-white font-semibold'>Crypto Currency</p>
+                            <p className='text-center text-white font-semibold'>Crypto Market</p>
                         </div>
 
                         <div className='relative flex flex-col mt-5  '>
@@ -111,7 +111,7 @@ const Analysis = () => {
                             <img src={Foreign} className='h-60 w-36 rounded-lg' alt="" />
                         </div>
                         <div className='relative p-2 border-b-2 border-lightGray'>
-                            <p className='text-center text-black font-semibold'>FOREX Market</p>
+                            <p className='text-center text-black font-semibold'>Forex Market</p>
                         </div>
 
                         <div className='relative flex flex-col mt-5  '>
@@ -124,7 +124,7 @@ const Analysis = () => {
                             <img src={Analouge} className='h-72 w-36 rounded-lg' alt="" />
                         </div>
                         <div className='relative p-2 border-b-2 border-lightGray'>
-                            <p className='text-center text-white font-semibold'>Analouge Market</p>
+                            <p className='text-center text-white font-semibold'>Analog Market</p>
                         </div>
 
                         <div className='relative flex flex-col mt-5  '>
