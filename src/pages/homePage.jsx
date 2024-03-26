@@ -26,7 +26,7 @@ const homePage = () => {
 
             </div>
 
-            <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-screen w-screen"></div>
+            <div className="bg-overLay bg-opacity-75 relative overflow-hidden bg-cover h-full w-screen"></div>
             <div
                 className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
             >
@@ -70,7 +70,6 @@ const homePage = () => {
 
                                 <p className="text-black font-semibold text-sm">Partnership</p>
                             </Link>
-                            555555555555555555555
 
 
 

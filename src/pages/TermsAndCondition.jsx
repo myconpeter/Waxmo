@@ -190,7 +190,7 @@ const TermsAndCondition = () => {
 
                     </p>
 
-                    <p className=" text-lg font-bold pb-6">contactwaxmo@gmail.com.</p>
+                    <p className=" text-lg font-bold pb-6">contactwaxmo@gmail.com</p>
                 </div>
 
 
