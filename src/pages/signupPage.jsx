@@ -111,7 +111,7 @@ const signupPage = () => {
                             </div>
 
                             <div>
-                                <input type="checkbox" required={true} name="checkbox" id="" className="text-overLay" />
+                                <input type="checkbox" required={true} name="checkbox" id="" className="text-overLay bg-overLay" />
 
                                 <Link to='/termandcondition' aria-required className="mx-2 text-sm text- ">Terms and Conditions</Link>
                             </div>

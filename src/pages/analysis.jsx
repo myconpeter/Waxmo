@@ -17,6 +17,9 @@ const Analysis = () => {
 
     const [selected, setSelected] = useState(active)
 
+    console.log(active.stockPercent
+    )
+
 
     const toggle = (i) => {
 
@@ -27,6 +30,8 @@ const Analysis = () => {
     }
 
     let sel = selected
+
+
 
 
 
@@ -280,20 +285,20 @@ const daily = [
     }
 ]
 
-const active = [
-    {
-        id: 1,
-        dayNumber: 1,
-        stockPercent: '0.11%',
-        stockAmount: 300,
-        forexPercent: '0.00%',
-        forexAmount: 300,
-        cryptoPercent: '0.00%',
-        cryptoAmount: 300,
-        adsPercent: '0.00%',
-        adsAmount: 100
-    }
-]
+const active =
+{
+    id: 1,
+    dayNumber: 5,
+    stockPercent: '0.11%',
+    stockAmount: 300,
+    forexPercent: '0.00%',
+    forexAmount: 300,
+    cryptoPercent: '0.00%',
+    cryptoAmount: 300,
+    adsPercent: '0.00%',
+    adsAmount: 100
+}
+
 
 
 

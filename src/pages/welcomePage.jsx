@@ -22,10 +22,10 @@ const welcomePage = () => {
 
                 <div className="flex h-full items-center justify-center">
                     <div className="text-black flex flex-col items-center">
-                        <img className='rounded-full h-40 w-40 items-center pb-9' src={logo} alt="micheal" />
+                        <img className='rounded-full h-96 w-96 items-center pb-5' src={logo} alt="micheal" />
 
 
-                        <div className='group items-center px-4 mt-36  bg-white rounded-full flex cursor-pointer w-fit '>
+                        <div className='group items-center px-4   bg-white rounded-full flex cursor-pointer w-fit '>
                             <Link to="loginORsignup"
                                 className='group text-black items-center p-2 px-3 text-3xl font-bold  rounded-lg flex cursor-pointer w-fit'
 

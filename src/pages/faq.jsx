@@ -64,36 +64,37 @@ const data = [
     {
         id: 1,
         title: "  - What is WaxMo all about",
-        description: "WaxMo is  financial technology company that provides platform for investing your finance and watch it grow overtime "
+        description: "WAXMO is a financial technology investment company that diversify its investment in different Portfolios, in return pays its investors dividend on a monthly basis "
     },
 
     {
         id: 2,
-        title: "- How much do i need to invest to be a Waxmo investor",
-        description: " - Buying a share of 2% makes you WaxMo limited partner, and you are entitled to recieve dividend at the end a 30 days. Worth up to 20% - 40% of initial capital. Duration of shares is 180 days "
+        title: " - Why should you consider WAXMO?",
+        description: "You should consider WAXMO, for it provides a simple way for investing your little finance and watch it grow overtime, its return on diversified investment makes you receive dividend when due. "
     },
 
     {
         id: 3,
-        title: "- Why should i consider Waxmo",
-        description: " - Buying a share of 3% makes you WaxMo limited partner, and you are entitled to recieve dividend at the end a 30 days. Worth up to 20% - 40% of initial capital. Duration of shares is 180 days "
+        title: "- What is WAXMO sources of Revenue?",
+        description: "WAXMO generates its revenue from the Stock-exchange market and Digital-economy market. "
     },
 
     {
         id: 4,
-        title: "- What is WaxMo source of income",
-        description: " - Buying a share of 4% makes you WaxMo limited partner, and you are entitled to recieve dividend at the end a 30 days. Worth up to 20% - 40% of initial capital. Duration of shares is 180 days "
+        title: "- What Makes WaxMo different from others",
+        description: "WAXMO simplicity, transparency, accountability, efficiency, and professional team management distinguish WAXMO from other investment firms."
     },
     {
         id: 5,
-        title: "- What Makes WaxMo different from others",
-        description: " - Buying a share of 5% makes you WaxMo limited partner, and you are entitled to recieve dividend at the end a 30 days. Worth up to 20% - 40% of initial capital. Duration of shares is 180 days "
+        title: "- How much is 1% share on WAXMO? ",
+        description: "WAXMO issue different percentage of shares to its investors which makes them receive dividend on a monthly basis. 1% share on WAXMO is just #10,000. "
     },
     {
         id: 6,
-        title: "- When do i get paid on WaxMo",
-        description: " - Buying a share of 6% makes you WaxMo limited partner, and you are entitled to recieve dividend at the end a 30 days. Worth up to 20% - 40% of initial capital. Duration of shares is 180 days "
+        title: "- When do WAXMO pays its investors Dividend ? ",
+        description: "WAXMO pays its investors dividend every 10th of each month for duration of 6months. "
     }
+
 ]
 
-export default faq
+export default faq 

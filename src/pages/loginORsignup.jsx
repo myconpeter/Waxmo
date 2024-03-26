@@ -3,6 +3,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import BackGround from "../assets/welcomePage-backgroundImage.jpg"
+import logo from "../assets/logo.svg"
 
 
 const loginORsignup = () => {
@@ -19,21 +20,16 @@ const loginORsignup = () => {
 
                 </div>
 
-                <div
-                    className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
-                >
-
-
-
-                    <div className="flex h-full pt-10 ">
+                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed">
+                    <div className="flex h-full pt-4 ">
                         <div className="text-black flex flex-col items-center">
-                            {/* <img className='rounded-full h-28 w-28 top-12 items-center pb-9' src={logo} alt="micheal" /> */}
+                            <img className='rounded-full h-80 w-80 top-12 items-center pb-2' src={logo} alt="micheal" />
 
                             {/* <h4 className=" mt-4 text-4xl  font-signature mb-11 text-white">- The path to finiancial growth -</h4> */}
 
 
-                            <div className="flex flex-col justify-center m-auto items-center">
-                                <h4 className=" mt-4 text-4xl font-semibold font-Roboto text-white">You're Welcome!</h4>
+                            <div className="flex flex-col justify-center items-center mb-8">
+                                <h4 className=" text-4xl font-semibold font-Roboto text-white">You're Welcome!</h4>
 
 
                             </div>
